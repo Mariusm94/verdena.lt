@@ -1,9 +1,17 @@
 /**
  * Runs once when the Node server boots (Hostinger / next start).
- * Fills league tables into SQLite even if package.json start script is overridden.
  */
 export async function register() {
   if (process.env.NEXT_RUNTIME !== "nodejs") return;
+
+  try {
+    const { syncClubContentFromStatic } = await import("@/lib/contentStore");
+    await syncClubContentFromStatic();
+    console.log("[instrumentation] club content synced");
+  } catch (error) {
+    console.error("[instrumentation] club content sync failed:", error);
+  }
+
   if (process.env.SKIP_TOURNAMENT_TABLE_SYNC === "1") return;
 
   try {
@@ -20,15 +28,5 @@ export async function register() {
     console.log("[instrumentation] tournament tables sync done");
   } catch (error) {
     console.error("[instrumentation] tournament tables sync failed:", error);
-  }
-
-  try {
-    const { syncOpenTournamentContent } = await import("@/lib/tournamentStore");
-    const { ensureAllOpenRegistrations } = await import("@/lib/registrationStore");
-    const synced = await syncOpenTournamentContent();
-    const count = await ensureAllOpenRegistrations();
-    console.log(`[instrumentation] open tournaments synced: ${synced}, registrations ready: ${count}`);
-  } catch (error) {
-    console.error("[instrumentation] open registrations failed:", error);
   }
 }

@@ -20,6 +20,11 @@ export default function GalleryView({ albums }: { albums: Album[] }) {
         text="Turnyrai, šventės ir klubo gyvenimas — nuo šiandienos iki istorinių dokumentų."
       />
       <section className="mx-auto max-w-7xl px-4 py-16 md:px-6">
+        {albums.length === 0 ? (
+          <p className="rounded-3xl border border-line bg-white p-8 text-ink-soft">
+            Galerija ruošiama — netrukus čia atsiras „Verdenos“ turnyrų ir bendruomenės nuotraukos.
+          </p>
+        ) : null}
         {albums.map((album) => (
           <div key={`${album.year}-${album.title}`} className="mb-14">
             <h2 className="font-display text-4xl">{album.title}</h2>

@@ -61,7 +61,7 @@ export default async function AdminSettingsPage() {
         <h2 className="font-display text-3xl">SEO</h2>
         <p className="text-sm text-ink-soft">
           Čia valdote svetainės pavadinimą, aprašymą, raktazodžius ir atskirų puslapių SEO. Po domain
-          paleidimo įrašykite tikrąjį <strong>Site URL</strong> (pvz. https://kaunotenisas.lt).
+          paleidimo įrašykite tikrąjį <strong>Site URL</strong> (pvz. https://verdena.lt).
         </p>
         <div className="grid gap-3">
           <label className="grid gap-1 text-sm">
@@ -69,7 +69,7 @@ export default async function AdminSettingsPage() {
             <input
               name="siteUrl"
               defaultValue={seo.siteUrl}
-              placeholder="https://kaunotenisas.lt"
+              placeholder="https://verdena.lt"
               className="rounded-xl border border-line px-3 py-2"
             />
           </label>

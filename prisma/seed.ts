@@ -47,17 +47,17 @@ async function seedContent() {
 
   await prisma.siteSetting.upsert({
     where: { key: "club" },
-    update: {},
+    update: { value: JSON.stringify(club) },
     create: { key: "club", value: JSON.stringify(club) },
   });
   await prisma.siteSetting.upsert({
     where: { key: "stats" },
-    update: {},
+    update: { value: JSON.stringify(stats) },
     create: { key: "stats", value: JSON.stringify(stats) },
   });
   await prisma.siteSetting.upsert({
     where: { key: "board" },
-    update: {},
+    update: { value: JSON.stringify(board) },
     create: { key: "board", value: JSON.stringify(board) },
   });
   await prisma.siteSetting.upsert({
@@ -67,7 +67,7 @@ async function seedContent() {
   });
   await prisma.siteSetting.upsert({
     where: { key: "seo" },
-    update: {},
+    update: { value: JSON.stringify(defaultSeo) },
     create: { key: "seo", value: JSON.stringify(defaultSeo) },
   });
 
@@ -114,21 +114,20 @@ async function seedContent() {
     });
   }
 
-  if ((await prisma.timelineEvent.count()) === 0) {
-    await prisma.timelineEvent.createMany({
-      data: timeline.map((item, index) => ({
-        year: item.year,
-        title: item.title,
-        text: item.text,
-        sortOrder: index,
-      })),
-    });
-  }
+  await prisma.timelineEvent.deleteMany();
+  await prisma.timelineEvent.createMany({
+    data: timeline.map((item, index) => ({
+      year: item.year,
+      title: item.title,
+      text: item.text,
+      sortOrder: index,
+    })),
+  });
 }
 
 async function main() {
-  const email = (process.env.ADMIN_EMAIL ?? "admin@kaunotenisas.lt").toLowerCase();
-  const password = process.env.ADMIN_PASSWORD ?? "Kaunas1924!";
+  const email = (process.env.ADMIN_EMAIL ?? "admin@verdena.lt").toLowerCase();
+  const password = process.env.ADMIN_PASSWORD ?? "Verdena1991!";
   const passwordHash = await hash(password, 12);
 
   await prisma.user.upsert({
@@ -142,20 +141,22 @@ async function main() {
     },
   });
 
-  // Demo narys rezultatų įvedimui (Etapas 3)
-  const memberEmail = (process.env.MEMBER_EMAIL ?? "narys@kaunotenisas.lt").toLowerCase();
-  const memberPassword = process.env.MEMBER_PASSWORD ?? "Narys1924!";
-  await prisma.user.upsert({
-    where: { email: memberEmail },
-    update: { role: "narys", name: "Balys Žaliūnas", playerName: "Balys Žaliūnas" },
-    create: {
-      name: "Balys Žaliūnas",
-      email: memberEmail,
-      passwordHash: await hash(memberPassword, 12),
-      role: "narys",
-      playerName: "Balys Žaliūnas",
-    },
-  });
+  // Demo narys (tik jei nustatytas MEMBER_EMAIL)
+  const memberEmail = (process.env.MEMBER_EMAIL ?? "").toLowerCase();
+  if (memberEmail) {
+    const memberPassword = process.env.MEMBER_PASSWORD ?? "NarysVerdena!";
+    await prisma.user.upsert({
+      where: { email: memberEmail },
+      update: { role: "narys", name: "Demo narys", playerName: "Demo narys" },
+      create: {
+        name: "Demo narys",
+        email: memberEmail,
+        passwordHash: await hash(memberPassword, 12),
+        role: "narys",
+        playerName: "Demo narys",
+      },
+    });
+  }
 
   for (const item of news) {
     await prisma.newsPost.upsert({
@@ -181,7 +182,7 @@ async function main() {
   for (const item of tournaments) {
     await prisma.tournament.upsert({
       where: { slug: item.slug },
-      update: {},
+      update: serializeTournamentFields(item),
       create: serializeTournamentFields(item),
     });
   }
@@ -268,10 +269,9 @@ async function main() {
   }
 
   console.log(`Admin: ${email}`);
-  console.log(`Narys demo: ${memberEmail} (${memberPassword})`);
+  if (memberEmail) console.log(`Narys demo: ${memberEmail}`);
   console.log(`Naujienos: ${news.length}`);
   console.log(`Turnyrai: ${tournaments.length}`);
-  console.log(`Hegelmann lygos: ${hegelmannDraws.length}`);
   console.log(`Klubo nariai: ${await prisma.clubMember.count()}`);
   console.log(`Reitingų lentelės: ${await prisma.rankingTable.count()}`);
   console.log(`Galerijos albumai: ${await prisma.galleryAlbum.count()}`);

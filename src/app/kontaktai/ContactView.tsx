@@ -19,12 +19,16 @@ export default function ContactView({ club }: { club: ClubInfo }) {
     );
   }
 
+  const mapsQuery = encodeURIComponent(club.address || "Šilutė");
+  const contactPerson =
+    "contactPerson" in club && typeof club.contactPerson === "string" ? club.contactPerson : "";
+
   return (
     <div>
       <PageHeader
         eyebrow="Kontaktai"
         title="Susisiekite su klubu"
-        text="Rašykite el. paštu arba apsilankykite Sporto gatvėje. Atsakome dėl narystės, turnyrų ir rėmimo."
+        text="Rašykite el. paštu arba skambinkite. Atsakome dėl narystės, turnyrų ir bendruomenės veiklos."
       />
       <section className="mx-auto grid max-w-7xl gap-10 px-4 py-16 md:grid-cols-2 md:px-6">
         <form onSubmit={onSubmit} className="rounded-[2rem] bg-white p-8 shadow-sm">
@@ -55,24 +59,38 @@ export default function ContactView({ club }: { club: ClubInfo }) {
             <h2 className="font-display text-3xl">{club.name}</h2>
             <ul className="mt-6 space-y-3 text-white/80">
               <li>{club.company}</li>
-              <li>{club.address}</li>
+              {club.address ? <li>{club.address}</li> : null}
+              {contactPerson ? <li>Kontaktinis asmuo: {contactPerson}</li> : null}
               <li>
                 <a href={`mailto:${club.email}`} className="text-gold">
                   {club.email}
                 </a>
               </li>
-              <li>Įmonės kodas {club.code}</li>
-              <li>
-                {club.iban}
-                <br />
-                {club.bank}
-              </li>
+              {club.phone ? (
+                <li>
+                  <a href={`tel:${club.phone.replace(/\s+/g, "")}`} className="text-gold">
+                    {club.phone}
+                  </a>
+                </li>
+              ) : null}
+              {club.code ? <li>Įmonės kodas {club.code}</li> : null}
+              {club.iban ? (
+                <li>
+                  {club.iban}
+                  {club.bank ? (
+                    <>
+                      <br />
+                      {club.bank}
+                    </>
+                  ) : null}
+                </li>
+              ) : null}
             </ul>
           </div>
           <div className="mt-6 overflow-hidden rounded-[2rem] border border-line bg-white">
             <iframe
-              title="Kauno teniso klubas žemėlapyje"
-              src="https://www.google.com/maps?q=Sporto+g.+3,+Kaunas&output=embed"
+              title={`${club.name} žemėlapyje`}
+              src={`https://www.google.com/maps?q=${mapsQuery}&output=embed`}
               className="h-72 w-full"
               loading="lazy"
             />

@@ -1,97 +1,52 @@
-export const galleryAlbums = [
-  {
-    year: "2026",
-    title: "Turnyrai 2026",
-    photos: [
-      { src: "/images/news/kalviu.jpg", alt: "Kalvių taurė" },
-      { src: "/images/news/belvilis.jpg", alt: "Vasara Belvilyje" },
-      { src: "/images/hero/group.jpg", alt: "Klubo komanda" },
-      { src: "/images/news/neodenta.jpg", alt: "NEODENTA sezonas" },
-      { src: "/images/news/summer-gala.png", alt: "Summer Gala" },
-      { src: "/images/news/hegelmann-results.png", alt: "Hegelmann rezultatai" },
-    ],
-  },
-  {
-    year: "2025",
-    title: "Turnyrai 2025",
-    photos: [
-      { src: "/images/hero/indoor.jpg", alt: "Halinis sezonas" },
-      { src: "/images/hero/outdoor.jpg", alt: "Lauko aikštelės" },
-      { src: "/images/news/neodenta-prizininkai.jpg", alt: "NEODENTA prizininkai" },
-      { src: "/images/news/hegelmann-lenteles.jpg", alt: "Hegelmann turnyras" },
-    ],
-  },
-];
-
-export const historyPages = [
-  { src: "/images/history/cover.jpg", alt: "Kauno teniso klubo istorijos viršelis" },
-  { src: "/images/history/p01.jpg", alt: "Istorijos archyvo puslapis" },
-  { src: "/images/history/p02.jpg", alt: "Istorijos archyvo dokumentas" },
-  { src: "/images/history/p03.jpg", alt: "Istorijos archyvo užrašai" },
-];
-
-export const pressItems = [
-  {
-    title: "Tarptautiniai teniso turnyrai ir komandinės varžybos",
-    text: "Apie klubo dalyvavimą tarptautiniuose turnyruose ir komandinėse varžybose tarpukariu ir vėliau.",
-  },
-  {
-    title: "Sereikiškių parko pirmajai teniso aikštelei — 100 metų",
-    text: "Vilniaus teniso ištakos ir sąsajos su Lietuvos teniso sąjūdžiu, kuriam KTK vadovavo iki 1932 m.",
-  },
-  {
-    title: "Kauno teniso klubo tarptautinis turnyras 1938 m.",
-    text: "Vienas ryškiausių tarpukario renginių, subūręs Lietuvos ir užsienio žaidėjus.",
-  },
-  {
-    title: "Įsimintinos dvikovos",
-    text: "Istorinės akistatos, kurios formavo klubo ir Lietuvos teniso veidą.",
-  },
-  {
-    title: "Lietuvos teniso čempionai",
-    text: "Čempionų linija, kurioje — ir Kauno teniso klubo auklėtiniai.",
-  },
-  {
-    title: "Kaune varžėsi teniso entuziastai",
-    text: "Delfi reportažas apie klubo turnyrą ir bendruomenę.",
-    href: "https://www.delfi.lt/sportas/tenisas/kaune-varzesi-teniso-entuziastai.d?id=67681462",
-  },
-];
-
 export const timeline = [
   {
-    year: "1924",
-    title: "Klubo įkūrimas",
-    text: "Vasario 9 d. K. Blažio, B. Navickienės ir V. Žadeikos iniciatyva įkuriamas Kauno teniso klubas. Pirmaisiais metais — apie 30 narių.",
+    year: "1991",
+    title: "Verdenos pradžia",
+    text: "1991 m. gegužės 2 d. įsteigiamas Šilutės lauko teniso klubas „Verdena“. Vienas klubo įkūrėjų Viktoras Bučius tampa pirmuoju prezidentu ir klubui vadovauja iki 2008 m.",
   },
   {
-    year: "1929",
-    title: "Pirmasis tarptautinis turnyras",
-    text: "Klubas surengia pirmąjį tarptautinį turnyrą. Vienas svarbiausių tikslų — aikščių įrengimas, varžybos ir dalyvavimas tarptautiniuose renginiuose.",
+    year: "2004",
+    title: "Pirmasis oficialus moterų turnyras",
+    text: "Surengtas pirmasis oficialus klubo moterų turnyras. Dalyvavo 11 žaidėjų, nugalėjo Gintarė Steponkutė. Moterų tenisas ilgainiui tapo svarbia „Verdenos“ bendruomenės dalimi.",
   },
   {
-    year: "1931",
-    title: "Keturios aikštės ir paviljonas",
-    text: "KTK jau turi keturias teniso aikštes, medinį paviljoną ir 88 narius. Klube bręsta geriausi to meto Lietuvos tenisininkai.",
+    year: "2011",
+    title: "Verdenai — 20",
+    text: "Klubas švenčia veiklos dvidešimtmetį. Tuo metu skelbta apie maždaug 100 klubo narių, iš kurių 32 buvo moterys.",
   },
   {
-    year: "1932",
-    title: "Teniso sąjunga",
-    text: "Iki 1932 m. klubas vadovauja teniso sąjūdžiui Lietuvoje. Įkūrus Teniso sąjungą, KTK tampa jos aktyviu nariu.",
+    year: "2014",
+    title: "Tenisas visoms kartoms",
+    text: "Renginiuose — vyrų, moterų, vaikų, šeimų bei senjorų turnyrai. Minimos vaikų vienetų, dvejetų ir mišrios varžybos, „Pamario“ taurė bei šeimų turnyras.",
   },
   {
-    year: "1936",
-    title: "Palanga",
-    text: "Tenisas plėtojamas ne tik Kaune ir priemiesčiuose, bet ir Palangoje.",
+    year: "2017",
+    title: "Auganti bendruomenė",
+    text: "Reitingų lentelėje registruotas 51 tenisininkas. 8-ojoje „Pamario“ taurėje — 28 žaidėjai, varžybos vyko penkiose aikštelėse.",
   },
   {
-    year: "1938",
-    title: "Tarptautinis turnyras Kaune",
-    text: "Dar vienas tarptautinis klubo turnyras, įrašytas į Lietuvos teniso istoriją.",
+    year: "2020",
+    title: "Teniso tradicijos tęsiasi",
+    text: "Viktoro Bučiaus taurėje — rekordiniai 20 žaidėjų. Surengtas ir mišrių porų turnyras (10 porų).",
   },
   {
-    year: "2024",
-    title: "100 metų",
-    text: "Kauno teniso klubas — vienintelis Lietuvoje švenčiantis šimtmetį. Bendruomenė, turnyrai ir istorija tęsiasi.",
+    year: "2021",
+    title: "30 metų kartu",
+    text: "„Verdena“ pasiekia dar vieną etapą — 30 metų nuo klubo įkūrimo.",
+  },
+  {
+    year: "2022",
+    title: "Vienas aktyviausių sezonų",
+    text: "Per sezoną — 8 didesni turnyrai ir mažesnės varžybos. Vien „Pamario taurėje 2022“ varžėsi 24 vyrai ir 19 moterų. Klubas vienijo daugiau nei pusšimtį narių.",
+  },
+  {
+    year: "2023",
+    title: "56 klubo nariai",
+    text: "36 vyrai ir 20 moterų — iš viso 56 nariai. Klubo prezidente išrinkta teniso trenerė Gitana Mėgelaitienė. Nuspręsta prezidentus rotuoti kas dvejus metus.",
+  },
+  {
+    year: "2026",
+    title: "35 metai Verdenos",
+    text: "35 metai žmonių. 35 metai turnyrų. 35 metai pergalių ir pralaimėjimų. 35 metai teniso Šilutėje.",
   },
 ];

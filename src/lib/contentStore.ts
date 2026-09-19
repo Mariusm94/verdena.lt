@@ -277,3 +277,41 @@ export async function listTimeline(): Promise<TimelineView[]> {
     return staticTimeline;
   }
 }
+
+/** Boot sync — užrašo brand / SEO / timeline iš static duomenų (Hostinger). */
+export async function syncClubContentFromStatic() {
+  if (!dbReady()) return;
+  try {
+    await prisma.siteSetting.upsert({
+      where: { key: "club" },
+      update: { value: JSON.stringify(staticClub) },
+      create: { key: "club", value: JSON.stringify(staticClub) },
+    });
+    await prisma.siteSetting.upsert({
+      where: { key: "stats" },
+      update: { value: JSON.stringify(staticStats) },
+      create: { key: "stats", value: JSON.stringify(staticStats) },
+    });
+    await prisma.siteSetting.upsert({
+      where: { key: "board" },
+      update: { value: JSON.stringify(staticBoard) },
+      create: { key: "board", value: JSON.stringify(staticBoard) },
+    });
+    await prisma.siteSetting.upsert({
+      where: { key: "seo" },
+      update: { value: JSON.stringify(defaultSeo) },
+      create: { key: "seo", value: JSON.stringify(defaultSeo) },
+    });
+    await prisma.timelineEvent.deleteMany();
+    await prisma.timelineEvent.createMany({
+      data: staticTimeline.map((item, index) => ({
+        year: item.year,
+        title: item.title,
+        text: item.text,
+        sortOrder: index,
+      })),
+    });
+  } catch (error) {
+    console.error("[content] syncClubContentFromStatic failed:", error);
+  }
+}

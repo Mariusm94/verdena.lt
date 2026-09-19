@@ -2,6 +2,8 @@ import Image from "next/image";
 import { sponsors } from "@/data/site";
 
 export default function Sponsors({ compact = false }: { compact?: boolean }) {
+  if (!sponsors.length) return null;
+
   return (
     <section className={compact ? "border-t border-line bg-paper py-10" : "border-t border-line bg-paper py-14"}>
       <div className="mx-auto max-w-7xl px-4 md:px-6">

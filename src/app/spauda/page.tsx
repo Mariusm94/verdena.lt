@@ -16,10 +16,15 @@ export default async function PressPage() {
       <PageHeader
         eyebrow="Spauda"
         title="Teniso istorija spaudoje"
-        text="Kauno teniso klubas — vienintelis Lietuvoje švenčiantis savo 100-metį. Puslapis pildomas nauja istorine medžiaga."
+        text="Medžiaga apie „Verdeną“ ir teniso gyvenimą Šilutės krašte. Puslapis pildomas."
       />
       <section className="mx-auto max-w-5xl px-4 py-16 md:px-6">
         <div className="grid gap-4">
+          {pressItems.length === 0 ? (
+            <p className="rounded-3xl border border-line bg-white p-8 text-ink-soft">
+              Spaudos archyvas ruošiamas — greitai čia atsiras straipsniai ir reportažai.
+            </p>
+          ) : null}
           {pressItems.map((item, index) => (
             <article key={`${item.title}-${index}`} className="rounded-3xl border border-line bg-white p-6 md:p-8">
               <p className="text-sm text-gold-deep">{String(index + 1).padStart(2, "0")}</p>

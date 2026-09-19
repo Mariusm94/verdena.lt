@@ -15,14 +15,14 @@ export default async function SupportPage() {
     <div>
       <PageHeader
         eyebrow="Parama"
-        title="Skirkite 2% GPM Kauno teniso klubui"
+        title={`Skirkite 2% GPM ${club.name}`}
         text="Gautas lėšas panaudosime teniso renginių organizavimui ir klubo veiklos vystymui."
       />
       <section className="mx-auto grid max-w-7xl gap-10 px-4 py-16 md:grid-cols-2 md:px-6">
         <div>
           <p className="text-lg leading-8 text-ink-soft">
             Jei dar niekam neskyrėte 2% gyventojų pajamų mokesčio ir esate neabejingi tenisui, kviečiame juos
-            skirti Kauno teniso klubui.
+            skirti Šilutės teniso klubui „Verdena“.
           </p>
           <p className="mt-5 text-lg leading-8 text-ink-soft">
             Paskirti lėšas galite užpildę prašymo formą FR0512 ir pateikę ją Valstybinei mokesčių inspekcijai.

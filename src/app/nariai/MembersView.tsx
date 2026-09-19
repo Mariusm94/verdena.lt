@@ -17,7 +17,7 @@ export default function MembersView({ members }: { members: string[] }) {
       <PageHeader
         eyebrow="Bendruomenė"
         title="Klubo nariai"
-        text={`${members.length} narių — žmonės, kurie žaidžia, organizuoja ir saugo Kauno teniso klubo ritmą.`}
+        text={`${members.length} narių — žmonės, kurie žaidžia, organizuoja ir saugo „Verdenos“ ritmą.`}
       />
       <section className="mx-auto max-w-7xl px-4 py-12 md:px-6">
         <input

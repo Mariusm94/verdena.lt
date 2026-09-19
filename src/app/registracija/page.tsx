@@ -19,7 +19,7 @@ export default function RegisterPage() {
       <PageHeader
         eyebrow="Paskyra"
         title="Svetainės paskyra"
-        text="Sukurkite paskyrą svetainėje. Klubo narystę valdyba tvirtina atskirai per „Tapti nariu“."
+        text="Sukurkite paskyrą svetainėje. Klubo narystę valdyba tvirtina atskirai per „Prisijungti“ / narystės formą."
       />
       <section className="mx-auto max-w-xl px-4 py-16">
         <form action={action} className="rounded-[2rem] bg-white p-8 shadow-sm">
