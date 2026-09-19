@@ -11,18 +11,23 @@ export default async function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 md:grid-cols-4 md:px-6">
         <div className="md:col-span-1">
           <Link href="/" className="flex items-center gap-3">
-            <Image src="/images/logo.png" alt="Kauno teniso klubas" width={48} height={48} className="rounded-full bg-gold" />
-            <span className="font-display text-xl">Kauno teniso klubas</span>
+            <Image
+              src="/images/logo.png"
+              alt={club.name}
+              width={180}
+              height={57}
+              className="h-10 w-auto object-contain"
+            />
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-6 text-white/70">
-            Seniausias teniso klubas Lietuvoje. Bendruomenė, turnyrai ir istorija, kuri tęsiasi nuo {club.founded} m.
+            {club.name} — turnyrai, narystė ir bendruomenė Šilutėje.
           </p>
           {club.facebook ? (
             <a
               href={club.facebook}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Kauno teniso klubas Facebook"
+              aria-label={`${club.name} Facebook`}
               className="mt-5 inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white/80 transition hover:border-gold hover:bg-white/10 hover:text-gold"
             >
               <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5 fill-current">
@@ -98,7 +103,7 @@ export default async function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 px-4 py-6 text-center text-xs text-white/50 md:px-6">
-        <p>© {new Date().getFullYear()} Kauno teniso klubas. Visos teisės saugomos.</p>
+        <p>© {new Date().getFullYear()} {club.name}. Visos teisės saugomos.</p>
         <p className="mt-2">
           Svetainę sukūrė{" "}
           <a

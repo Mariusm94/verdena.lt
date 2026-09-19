@@ -86,21 +86,16 @@ export default function Header() {
         <Link
           href="/"
           className="flex min-w-0 items-center gap-3"
-          aria-label="Kauno teniso klubas nuo 1924"
+          aria-label="Verdėnos teniso klubas Šilutė"
         >
           <Image
             src="/images/logo.png"
-            alt=""
-            width={52}
-            height={52}
-            className="h-11 w-11 shrink-0 rounded-full bg-gold shadow-md sm:h-12 sm:w-12"
+            alt="TK Verdena Šilutė"
+            width={200}
+            height={63}
+            className="h-10 w-auto shrink-0 object-contain sm:h-11"
             priority
-            aria-hidden
           />
-          <span className="hidden leading-tight sm:block" aria-hidden="true">
-            <span className="block font-display text-lg text-white">Kauno teniso klubas</span>
-            <span className="block text-xs tracking-[0.22em] text-gold uppercase">nuo 1924</span>
-          </span>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Pagrindinė navigacija">
