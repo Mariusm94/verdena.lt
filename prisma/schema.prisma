@@ -1,0 +1,229 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  role         String   @default("narys")
+  playerName   String?
+  createdAt    DateTime @default(now())
+  submittedMatches Match[]
+}
+
+model NewsPost {
+  id           String   @id @default(cuid())
+  slug         String   @unique
+  title        String
+  date         String
+  dateLabel    String
+  excerpt      String
+  image        String
+  body         String
+  tag          String
+  published    Boolean  @default(true)
+  online       Boolean  @default(false)
+  relatedHref  String?
+  relatedLabel String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Photo {
+  id        String   @id @default(cuid())
+  url       String
+  folder    String
+  alt       String   @default("")
+  createdAt DateTime @default(now())
+}
+
+model Tournament {
+  id              String   @id @default(cuid())
+  slug            String   @unique
+  title           String
+  season          String
+  status          String
+  format          String
+  sponsor         String?
+  description     String
+  rules           String
+  schedule        String
+  tables          String   @default("[]")
+  tablesNote      String?
+  registerSubject String?
+  links           String   @default("[]")
+  coverImage      String?
+  published       Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  draws           LeagueDraw[]
+  registration    TournamentRegistration?
+}
+
+model TournamentRegistration {
+  id           String   @id @default(cuid())
+  tournamentId String   @unique
+  enabled      Boolean  @default(false)
+  allowPartner Boolean  @default(true)
+  title        String   @default("Registracija")
+  intro        String   @default("")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  tournament   Tournament @relation(fields: [tournamentId], references: [id], onDelete: Cascade)
+  entries      TournamentRegistrationEntry[]
+}
+
+model TournamentRegistrationEntry {
+  id               String   @id @default(cuid())
+  registrationId   String
+  firstName        String
+  lastName         String
+  email            String
+  phone            String
+  partnerFirstName String?
+  partnerLastName  String?
+  partnerEmail     String?
+  partnerPhone     String?
+  createdAt        DateTime @default(now())
+  registration     TournamentRegistration @relation(fields: [registrationId], references: [id], onDelete: Cascade)
+
+  @@index([registrationId])
+}
+
+model LeagueDraw {
+  id           String   @id @default(cuid())
+  tournamentId String
+  externalKey  String
+  groupName    String
+  title        String
+  teams        String
+  points       String
+  places       String
+  scores       String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  tournament   Tournament @relation(fields: [tournamentId], references: [id], onDelete: Cascade)
+  brackets     KnockoutBracket[]
+  matches      Match[]
+
+  @@unique([tournamentId, externalKey])
+}
+
+model KnockoutBracket {
+  id        String   @id @default(cuid())
+  drawId    String
+  externalId String
+  title     String
+  league    String
+  groupName String   @default("")
+  payload   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  draw      LeagueDraw @relation(fields: [drawId], references: [id], onDelete: Cascade)
+
+  @@unique([drawId, externalId])
+}
+
+model Match {
+  id                String   @id @default(cuid())
+  drawId            String
+  home              String
+  away              String
+  score             String   @default("")
+  previousScore     String   @default("")
+  stage             String   @default("")
+  playedAt          String?
+  status            String   @default("confirmed")
+  submittedByUserId String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  draw              LeagueDraw @relation(fields: [drawId], references: [id], onDelete: Cascade)
+  submittedBy       User?    @relation(fields: [submittedByUserId], references: [id], onDelete: SetNull)
+}
+
+model ClubMember {
+  id        String   @id @default(cuid())
+  name      String
+  sortName  String?
+  published Boolean  @default(true)
+  createdAt DateTime @default(now())
+}
+
+model RankingTable {
+  id          String       @id @default(cuid())
+  externalKey String       @unique
+  title       String
+  unit        String
+  sortOrder   Int          @default(0)
+  rows        RankingRow[]
+}
+
+model RankingRow {
+  id      String       @id @default(cuid())
+  tableId String
+  rank    Int
+  name    String
+  value   Int
+  table   RankingTable @relation(fields: [tableId], references: [id], onDelete: Cascade)
+
+  @@index([tableId])
+}
+
+model SiteSetting {
+  key   String @id
+  value String
+}
+
+model GalleryAlbum {
+  id        String         @id @default(cuid())
+  year      String
+  title     String
+  sortOrder Int            @default(0)
+  photos    GalleryPhoto[]
+}
+
+model GalleryPhoto {
+  id        String       @id @default(cuid())
+  albumId   String
+  url       String
+  alt       String       @default("")
+  sortOrder Int          @default(0)
+  album     GalleryAlbum @relation(fields: [albumId], references: [id], onDelete: Cascade)
+}
+
+model VideoItem {
+  id          String  @id @default(cuid())
+  title       String
+  description String  @default("")
+  youtubeId   String  @default("")
+  image       String  @default("")
+  sortOrder   Int     @default(0)
+  published   Boolean @default(true)
+}
+
+model PressItem {
+  id        String  @id @default(cuid())
+  title     String
+  source    String?
+  href      String?
+  dateLabel String?
+  excerpt   String?
+  sortOrder Int     @default(0)
+}
+
+model TimelineEvent {
+  id        String @id @default(cuid())
+  year      String
+  title     String
+  text      String
+  sortOrder Int    @default(0)
+}
+
+

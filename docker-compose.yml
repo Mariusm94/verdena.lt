@@ -1,0 +1,20 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      # Privaloma produkcijoje — sugeneruokite: openssl rand -base64 32
+      AUTH_SECRET: ${AUTH_SECRET:?Nustatykite AUTH_SECRET .env faile}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@kaunotenisas.lt}
+      # Pirmam paleidimui (tuščia DB). Vėliau seed nebevykdomas automatiškai.
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Nustatykite ADMIN_PASSWORD .env faile}
+      AUTH_TRUST_HOST: "true"
+      DATABASE_URL: file:/data/prod.db
+    volumes:
+      - ktk-data:/data
+      - ktk-uploads:/app/public/uploads
+
+volumes:
+  ktk-data:
+  ktk-uploads:

@@ -1,0 +1,2844 @@
+{
+  "brackets": [
+    {
+      "id": "Mixai-0-MASTERS - FINALAS",
+      "title": "MASTERS - FINALAS",
+      "group": "Mixai",
+      "drawId": "mixai-masters",
+      "league": "Masters",
+      "kind": "finalas",
+      "layout": "tree",
+      "slots": [
+        "Dovilė Kavolienė / Tadas Skairys",
+        "x",
+        "Daina Sinkevičienė / Laurynas Adomavičius",
+        "Balys Žaliūnas / Milena Kriukelytė",
+        "Greta Jovarauskienė / Alfonsas Genys",
+        "Simona Ambraziejūtė / Marius Mėgelaitis",
+        "x",
+        "Kristina Frankaitė / Aurimas Karpavičius"
+      ],
+      "rounds": [
+        {
+          "label": "Ketvirtfinalis",
+          "matches": [
+            {
+              "home": "Dovilė Kavolienė / Tadas Skairys",
+              "away": "x",
+              "score": "",
+              "winner": "Dovilė Kavolienė / Tadas Skairys"
+            },
+            {
+              "home": "Daina Sinkevičienė / Laurynas Adomavičius",
+              "away": "Balys Žaliūnas / Milena Kriukelytė",
+              "score": "b.ž. 1:0",
+              "winner": "Daina Sinkevičienė / Laurynas Adomavičius"
+            },
+            {
+              "home": "Greta Jovarauskienė / Alfonsas Genys",
+              "away": "Simona Ambraziejūtė / Marius Mėgelaitis",
+              "score": "5:7 1:6",
+              "winner": "Simona Ambraziejūtė / Marius Mėgelaitis"
+            },
+            {
+              "home": "x",
+              "away": "Kristina Frankaitė / Aurimas Karpavičius",
+              "score": "",
+              "winner": "Kristina Frankaitė / Aurimas Karpavičius"
+            }
+          ]
+        },
+        {
+          "label": "Pusfinalis",
+          "matches": [
+            {
+              "home": "Dovilė Kavolienė / Tadas Skairys",
+              "away": "Daina Sinkevičienė / Laurynas Adomavičius",
+              "score": "6:2 7:5",
+              "winner": "Dovilė Kavolienė / Tadas Skairys"
+            },
+            {
+              "home": "Simona Ambraziejūtė / Marius Mėgelaitis",
+              "away": "Kristina Frankaitė / Aurimas Karpavičius",
+              "score": "6:4 6:2",
+              "winner": "Simona Ambraziejūtė / Marius Mėgelaitis"
+            }
+          ]
+        },
+        {
+          "label": "Finalas",
+          "matches": [
+            {
+              "home": "Dovilė Kavolienė / Tadas Skairys",
+              "away": "Simona Ambraziejūtė / Marius Mėgelaitis",
+              "score": "3:6 6:1 7:10",
+              "winner": "Simona Ambraziejūtė / Marius Mėgelaitis"
+            }
+          ]
+        }
+      ],
+      "champion": "Simona Ambraziejūtė / Marius Mėgelaitis",
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Mixai-1-MASTERS dėl 3vietos",
+      "title": "MASTERS dėl 3vietos",
+      "group": "Mixai",
+      "drawId": "mixai-masters",
+      "league": "Masters",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Daina Sinkevičienė / Laurynas Adomavičius",
+        "Kristina Frankaitė / Aurimas Karpavičius"
+      ],
+      "scores": [
+        [
+          "",
+          "3:6 5:7"
+        ],
+        [
+          "6:3 7:5",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1
+      ],
+      "places": [
+        2,
+        1
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Mixai-2-POWER - FINALAS",
+      "title": "POWER - FINALAS",
+      "group": "Mixai",
+      "drawId": "mixai-power",
+      "league": "Power",
+      "kind": "finalas",
+      "layout": "matrix",
+      "teams": [
+        "Birutė Adomavičienė / Vilius Helmas",
+        "Balys Žaliūnas / Birutė Pranevičienė"
+      ],
+      "scores": [
+        [
+          "",
+          "4:6 2:6"
+        ],
+        [
+          "6:4 6:2",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1
+      ],
+      "places": [
+        2,
+        1
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Mixai-3-POWER - dėl 3 vietos",
+      "title": "POWER - dėl 3 vietos",
+      "group": "Mixai",
+      "drawId": "mixai-power",
+      "league": "Power",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Justė Uldinskė / Vilius Vasaris",
+        "Dovilė Kavolienė / Tomas Kavolius"
+      ],
+      "scores": [
+        [
+          "",
+          "1:6 4:6"
+        ],
+        [
+          "6:1 6:4",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1
+      ],
+      "places": [
+        2,
+        1
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Mixai-4-POWER - PAGUODA",
+      "title": "POWER - PAGUODA",
+      "group": "Mixai",
+      "drawId": "mixai-power",
+      "league": "Power",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Sonata Jurkševičienė / Valdas Lukšas",
+        "Austėja Kamandulytė / Ignas Stundys"
+      ],
+      "scores": [
+        [
+          "",
+          "b.ž. 0"
+        ],
+        [
+          "b.ž. 0",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        0
+      ],
+      "places": [
+        0,
+        0
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Mixai-5-POWER - Pusfinalis I",
+      "title": "POWER - Pusfinalis I",
+      "group": "Mixai",
+      "drawId": "mixai-power",
+      "league": "Power",
+      "kind": "pusfinalis",
+      "layout": "matrix",
+      "teams": [
+        "Birutė Adomavičienė / Vilius Helmas",
+        "Justė Uldinskė / Vilius Vasaris"
+      ],
+      "scores": [
+        [
+          "",
+          "6:4 6:7 10:6"
+        ],
+        [
+          "4:6 7:6 6:10",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Mixai-6-POWER - Pusfinalis II",
+      "title": "POWER - Pusfinalis II",
+      "group": "Mixai",
+      "drawId": "mixai-power",
+      "league": "Power",
+      "kind": "pusfinalis",
+      "layout": "matrix",
+      "teams": [
+        "Balys Žaliūnas / Birutė Pranevičienė",
+        "Dovilė Kavolienė / Tomas Kavolius"
+      ],
+      "scores": [
+        [
+          "",
+          "6:1 6:1"
+        ],
+        [
+          "1:6 1:6",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Mixai-7-POWER - PAGUODA",
+      "title": "POWER - PAGUODA",
+      "group": "Mixai",
+      "drawId": "mixai-power",
+      "league": "Power",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Austėja Kamandulytė / Ignas Stundys",
+        "Sonata Jurkševičienė / Valdas Lukšas",
+        "Lukas Dunčikas / Irena Dunčikienė"
+      ],
+      "scores": [
+        [
+          "",
+          "6:2 6:1",
+          "6:2 6:3"
+        ],
+        [
+          "2:6 1:6",
+          "",
+          "6:3 6:0"
+        ],
+        [
+          "2:6 3:6",
+          "3:6 0:6",
+          ""
+        ]
+      ],
+      "points": [
+        2,
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2,
+        3
+      ],
+      "size": "4 lentelė"
+    },
+    {
+      "id": "Mixai-8-Middle / Challenger - FINALAS",
+      "title": "Middle / Challenger - FINALAS",
+      "group": "Mixai",
+      "drawId": "mixai-middle-challenger-1",
+      "league": "Middle / Challenger 1",
+      "kind": "finalas",
+      "layout": "matrix",
+      "teams": [
+        "Anton Hegelmann / Martha Hegelmann",
+        "Daiva Sabaliauskienė / Adomas Sabaliauskas"
+      ],
+      "scores": [
+        [
+          "",
+          "b.ž. 1"
+        ],
+        [
+          "b.ž. 0",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Mixai-9-Middle / Challenger - dėl 3 vietos",
+      "title": "Middle / Challenger - dėl 3 vietos",
+      "group": "Mixai",
+      "drawId": "mixai-middle-challenger-1",
+      "league": "Middle / Challenger 1",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Irina Račiūnienė / Artūras Račiūnas",
+        "Laimutė Meilūnaitė / Rolandas Musneckis"
+      ],
+      "scores": [
+        [
+          "",
+          "6:3 7:6"
+        ],
+        [
+          "3:6 6:7",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Mixai-10-Middle / Challenger - Paguoda",
+      "title": "Middle / Challenger - Paguoda",
+      "group": "Mixai",
+      "drawId": "mixai-middle-challenger-1",
+      "league": "Middle / Challenger 1",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Giedrius Pacevičius / Laima Radavičienė",
+        "Ugnė Viliušytė / Rinaldas Viliušis"
+      ],
+      "scores": [
+        [
+          "",
+          "5:7 2:6"
+        ],
+        [
+          "7:5 6:2",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1
+      ],
+      "places": [
+        2,
+        1
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Mixai-11-MIDDLE / CHALLENGER - FINALAS",
+      "title": "MIDDLE / CHALLENGER - FINALAS",
+      "group": "Mixai",
+      "drawId": "mixai-middle-challenger-1",
+      "league": "Middle / Challenger 1",
+      "kind": "finalas",
+      "layout": "matrix",
+      "teams": [
+        "Laimutė Meilūnaitė / Rolandas Musneckis",
+        "Daiva Sabaliauskienė / Adomas Sabaliauskas",
+        "Irina Račiūnienė / Artūras Račiūnas",
+        "Marius Bagdonas / Dovilė Bagdonienė",
+        "Raminta Mugauskienė / Vaidas Mugauskas",
+        "Anton Hegelmann / Martha Hegelmann",
+        "Julius Žvinys / Karolina Jablonskytė",
+        "Gytis Kviedaraitis / Lorita Šalugienė",
+        "Kristina Veštortienė / Mindaugas Veštortas",
+        "Urtė Raicevičiūtė / Lukas Raicevičius"
+      ],
+      "scores": [
+        [
+          "",
+          "4:6 6:1 5:10",
+          "6:4 6:4",
+          "6:4 6:4",
+          "6:2 6:1",
+          "2:6 5:7",
+          "5:7 6:1 6:10",
+          "7:5 3:6 10:5",
+          "6:1 6:3",
+          "7:5 7:5"
+        ],
+        [
+          "6:4 1:6 10:5",
+          "",
+          "6:3 6:4",
+          "4:6 4:6",
+          "6:1 6:3",
+          "5:7 6:1 8:10",
+          "6:7 6:7",
+          "6:4 3:6 10:6",
+          "6:1 6:0",
+          "3:6 6:3 10:7"
+        ],
+        [
+          "4:6 4:6",
+          "3:6 4:6",
+          "",
+          "4:6 6:1 10:6",
+          "6:2 6:1",
+          "3:6 7:6 10:5",
+          "3:6 6:7",
+          "b.ž. 1",
+          "6:2 6:3",
+          "b.ž. 1"
+        ],
+        [
+          "4:6 4:6",
+          "6:4 6:4",
+          "6:4 1:6 6:10",
+          "",
+          "6:1 6:1",
+          "4:6 3:6",
+          "1:6 7:5 10:5",
+          "6:4 7:5",
+          "6:1 6:4",
+          "6:4 6:2"
+        ],
+        [
+          "2:6 1:6",
+          "1:6 3:6",
+          "2:6 1:6",
+          "1:6 1:6",
+          "",
+          "2:6 3:6",
+          "2:6 2:6",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "6:2 7:5",
+          "7:5 1:6 10:8",
+          "6:3 6:7 5:10",
+          "6:4 6:3",
+          "6:2 6:3",
+          "",
+          "6:1 7:5",
+          "7:5 6:0",
+          "6:1 6:4",
+          "b.ž. 1"
+        ],
+        [
+          "7:5 1:6 10:6",
+          "7:6 7:6",
+          "6:3 7:6",
+          "6:1 5:7 5:10",
+          "6:2 6:2",
+          "1:6 5:7",
+          "",
+          "6:4 6:4",
+          "6:2 5:7 8:10",
+          "4:6 6:3 9:11"
+        ],
+        [
+          "5:7 6:3 5:10",
+          "4:6 6:3 6:10",
+          "b.ž. 0",
+          "4:6 5:7",
+          "0",
+          "5:7 0:6",
+          "4:6 4:6",
+          "",
+          "6:3 3:6 8:10",
+          "6:3 3:6 10:8"
+        ],
+        [
+          "1:6 3:6",
+          "1:6 0:6",
+          "2:6 3:6",
+          "1:6 4:6",
+          "0",
+          "1:6 4:6",
+          "2:6 7:5 10:8",
+          "3:6 6:3 10:8",
+          "",
+          "6:4 4:6 5:10"
+        ],
+        [
+          "5:7 5:7",
+          "6:3 3:6 7:10",
+          "b.ž. 0",
+          "4:6 2:6",
+          "0",
+          "b.ž. 0",
+          "6:4 3:6 11:9",
+          "3:6 6:3 8:10",
+          "4:6 6:4 10:5",
+          ""
+        ]
+      ],
+      "points": [
+        6,
+        6,
+        6,
+        6,
+        0,
+        8,
+        5,
+        1,
+        2,
+        2
+      ],
+      "places": [
+        2,
+        3,
+        4,
+        5,
+        10,
+        1,
+        6,
+        9,
+        7,
+        8
+      ],
+      "size": "16 lentelė"
+    },
+    {
+      "id": "Mixai-12-MIDDLE / CHALLENGER - PAGUODA",
+      "title": "MIDDLE / CHALLENGER - PAGUODA",
+      "group": "Mixai",
+      "drawId": "mixai-middle-challenger-1",
+      "league": "Middle / Challenger 1",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Otilija Baguckiene / Domantas Baguckis",
+        "Marius Stasiškis / Agnė Stasiškienė",
+        "Regina Auškalnienė / Stasys Auškalnis",
+        "Dalia Jarušaitienė / Stede Ingram",
+        "Jurgita Kondratienė / Andrius Kondratas",
+        "Ingrida Ščiuckienė / Marius Janušauskas",
+        "Giedrius Pacevičius / Laima Radavičienė",
+        "Ugnė Viliušytė / Rinaldas Viliušis"
+      ],
+      "scores": [
+        [
+          "",
+          "0",
+          "0",
+          "6:3 6:3",
+          "b.ž. 0",
+          "0",
+          "b.ž. 0",
+          "b.ž. 0"
+        ],
+        [
+          "0",
+          "",
+          "0",
+          "0",
+          "b.ž. 0",
+          "b.ž. 0",
+          "b.ž. 0",
+          "b.ž. 0"
+        ],
+        [
+          "0",
+          "0",
+          "",
+          "0",
+          "6:3 6:3",
+          "3:6 2:6",
+          "3:6 6:3 12:10",
+          "7:5 4:6 10:6"
+        ],
+        [
+          "3:6 3:6",
+          "0",
+          "0",
+          "",
+          "0",
+          "6:4 6:3",
+          "4:6 6:1 10:8",
+          "b.ž. 0"
+        ],
+        [
+          "b.ž. 1",
+          "b.ž. 1",
+          "3:6 3:6",
+          "0",
+          "",
+          "1:6 7:6 10:12",
+          "6:4 3:6 8:10",
+          "1:6 7:6 9:11"
+        ],
+        [
+          "0",
+          "b.ž. 1",
+          "6:3 6:2",
+          "4:6 3:6",
+          "6:1 6:7 12:10",
+          "",
+          "0",
+          "6:7 6:4 3:10"
+        ],
+        [
+          "b.ž. 1",
+          "b.ž. 1",
+          "6:3 3:6 10:12",
+          "6:4 1:6 8:10",
+          "4:6 6:3 10:8",
+          "0",
+          "",
+          "3:6 6:2 10:8"
+        ],
+        [
+          "b.ž. 1",
+          "b.ž. 1",
+          "5:7 6:4 6:10",
+          "b.ž. 1",
+          "6:1 6:7 11:9",
+          "7:6 4:6 10:3",
+          "6:3 2:6 8:10",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0,
+        3,
+        2,
+        2,
+        3,
+        4,
+        5
+      ],
+      "places": [
+        7,
+        8,
+        3,
+        5,
+        6,
+        4,
+        2,
+        1
+      ],
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Moterys dvejetai-0-POWER - FINALAS",
+      "title": "POWER - FINALAS",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-power",
+      "league": "Power",
+      "kind": "finalas",
+      "layout": "matrix",
+      "teams": [
+        "Greta Jovarauskienė / Birutė Pranevičienė",
+        "Dovilė Kavolienė / Renata Kolganovienė"
+      ],
+      "scores": [
+        [
+          "",
+          "6:3 6:4"
+        ],
+        [
+          "3:6 4:6",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys dvejetai-1-POWER - dėl 3 vietos",
+      "title": "POWER - dėl 3 vietos",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-power",
+      "league": "Power",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Birutė Adomavičienė / Violeta Matulaitienė",
+        "Daina Sinkevičienė / Justė Uldinskė"
+      ],
+      "scores": [
+        [
+          "",
+          "6:4 6:4"
+        ],
+        [
+          "4:6 4:6",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys dvejetai-2-POWER - Pusfinalis I",
+      "title": "POWER - Pusfinalis I",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-power",
+      "league": "Power",
+      "kind": "pusfinalis",
+      "layout": "matrix",
+      "teams": [
+        "Greta Jovarauskienė / Birutė Pranevičienė",
+        "Daina Sinkevičienė / Justė Uldinskė"
+      ],
+      "scores": [
+        [
+          "",
+          "6:0 6:3"
+        ],
+        [
+          "0:6 3:6",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys dvejetai-3-POWER - Pusfinalis II",
+      "title": "POWER - Pusfinalis II",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-power",
+      "league": "Power",
+      "kind": "pusfinalis",
+      "layout": "matrix",
+      "teams": [
+        "Dovilė Kavolienė / Renata Kolganovienė",
+        "Birutė Adomavičienė / Violeta Matulaitienė"
+      ],
+      "scores": [
+        [
+          "",
+          "7:5 1:6 10:7"
+        ],
+        [
+          "5:7 6:1 7:10",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys dvejetai-4-POWER - Paguodos FINALAS",
+      "title": "POWER - Paguodos FINALAS",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-power",
+      "league": "Power",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Sonata Jurkševičienė / Vaiva Žažeckienė",
+        "Emilija Sakavičiūtė / Giedrė Bakšytė"
+      ],
+      "scores": [
+        [
+          "",
+          "1:6 6:3 10:6"
+        ],
+        [
+          "6:1 3:6 6:10",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys dvejetai-5-POWER - PAGUODA",
+      "title": "POWER - PAGUODA",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-power",
+      "league": "Power",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Sonata Jurkševičienė / Vaiva Žažeckienė",
+        "Emilija Sakavičiūtė / Giedrė Bakšytė",
+        "Simona Balkevičienė / Aurelija Makarevičienė"
+      ],
+      "scores": [
+        [
+          "",
+          "5:7 3:6",
+          "6:2 6:3"
+        ],
+        [
+          "7:5 6:3",
+          "",
+          "7:5 4:6 12:10"
+        ],
+        [
+          "2:6 3:6",
+          "5:7 6:4 10:12",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        2,
+        0
+      ],
+      "places": [
+        2,
+        1,
+        3
+      ],
+      "size": "4 lentelė"
+    },
+    {
+      "id": "Moterys dvejetai-6-MIDDLE - FINALAS",
+      "title": "MIDDLE - FINALAS",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-middle-2",
+      "league": "Middle 2",
+      "kind": "finalas",
+      "layout": "matrix",
+      "teams": [
+        "Eglė Lendraitienė / Gabrielė Pranckevičienė",
+        "Luka Garšvaitė / Aušra Sabė"
+      ],
+      "scores": [
+        [
+          "",
+          "1:6 4:6"
+        ],
+        [
+          "6:1 6:4",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1
+      ],
+      "places": [
+        2,
+        1
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys dvejetai-7-MIDDLE - dėl 3 vietos",
+      "title": "MIDDLE - dėl 3 vietos",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-middle-2",
+      "league": "Middle 2",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Guoda Andrulytė / Goda Vašurenkaitė",
+        "Lina Beigienė / Danutė Aidukonytė-Sidarevičienė"
+      ],
+      "scores": [
+        [
+          "",
+          "b.ž. 0"
+        ],
+        [
+          "b.ž. 0",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        0
+      ],
+      "places": [
+        0,
+        0
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys dvejetai-8-MIDDLE - Paguodos FINALAS",
+      "title": "MIDDLE - Paguodos FINALAS",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-middle-1",
+      "league": "Middle 1",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Ingrida Pankienė / Kristina Varkalienė",
+        "Urtė Raicevičiūtė / Irena Dunčikienė"
+      ],
+      "scores": [
+        [
+          "",
+          "6:7 6:3 10:5"
+        ],
+        [
+          "7:6 3:6 5:10",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys dvejetai-9-MIDDLE - PAGUODA",
+      "title": "MIDDLE - PAGUODA",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-middle-2",
+      "league": "Middle 2",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Ingrida Pankienė / Kristina Varkalienė",
+        "Sandrija Čapkauskienė / Deimantė Guzevičienė",
+        "Daina Sinkevičienė / Nomeda Jonaitienė",
+        "Jūratė Budrytė / Ieva Saudargaitė",
+        "Ingrida Ščiuckienė / Ina Dudėniene",
+        "Urtė Raicevičiūtė / Irena Dunčikienė",
+        "Laura Kaminskienė / Dovilė Bagdonienė",
+        "Laimutė Meilūnaitė / Sigita Širkienė",
+        "Greta Grigaitienė / Kamile Norkevičienė"
+      ],
+      "scores": [
+        [
+          "",
+          "6:2 6:0",
+          "0",
+          "6:1 6:1",
+          "6:1 6:2",
+          "6:3 6:1",
+          "6:3 6:1",
+          "6:0 6:2",
+          "6:1 6:0"
+        ],
+        [
+          "2:6 0:6",
+          "",
+          "1:6 4:6",
+          "6:2 7:6",
+          "6:4 6:3",
+          "0:6 0:6",
+          "0",
+          "0",
+          "0:6 0:6"
+        ],
+        [
+          "0",
+          "6:1 6:4",
+          "",
+          "4:6 6:1 10:3",
+          "6:1 7:5",
+          "6:7 3:6",
+          "6:4 1:6 10:8",
+          "0",
+          "6:2 4:6 8:10"
+        ],
+        [
+          "1:6 1:6",
+          "2:6 6:7",
+          "6:4 1:6 3:10",
+          "",
+          "7:5 6:0",
+          "3:6 4:6",
+          "7:5 6:2",
+          "7:5 3:6 13:11",
+          "6:6 4:6"
+        ],
+        [
+          "1:6 2:6",
+          "4:6 3:6",
+          "1:6 5:7",
+          "5:7 0:6",
+          "",
+          "0:6 0:6",
+          "3:6 4:6",
+          "0",
+          "0"
+        ],
+        [
+          "3:6 1:6",
+          "6:0 6:0",
+          "7:6 6:3",
+          "6:3 6:4",
+          "6:0 6:0",
+          "",
+          "6:1 4:6 10:6",
+          "6:4 6:0",
+          "6:1 6:0"
+        ],
+        [
+          "3:6 1:6",
+          "0",
+          "4:6 6:1 8:10",
+          "5:7 2:6",
+          "6:3 6:4",
+          "1:6 6:4 6:10",
+          "",
+          "6:4 2:6 10:4",
+          "4:6 0:6"
+        ],
+        [
+          "0:6 2:6",
+          "0",
+          "0",
+          "5:7 6:3 11:13",
+          "0",
+          "4:6 0:6",
+          "4:6 6:2 4:10",
+          "",
+          "3:6 1:6"
+        ],
+        [
+          "1:6 0:6",
+          "6:0 6:0",
+          "2:6 6:4 10:8",
+          "6:6 6:4",
+          "0",
+          "1:6 0:6",
+          "6:4 6:0",
+          "6:3 6:1",
+          ""
+        ]
+      ],
+      "points": [
+        7,
+        2,
+        4,
+        3,
+        0,
+        7,
+        2,
+        0,
+        5
+      ],
+      "places": [
+        1,
+        6,
+        4,
+        5,
+        8,
+        2,
+        7,
+        9,
+        3
+      ],
+      "size": "16 lentelė"
+    },
+    {
+      "id": "Moterys dvejetai-10-MIDDLE - FINALAS",
+      "title": "MIDDLE - FINALAS",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-middle-2",
+      "league": "Middle 2",
+      "kind": "finalas",
+      "layout": "matrix",
+      "teams": [
+        "Guoda Andrulytė / Goda Vašurenkaitė",
+        "Eglė Lendraitienė / Gabrielė Pranckevičienė",
+        "Evelina Pangonienė / Kristina Veštortienė",
+        "Martha Hegelmann / Kristina Kvederienė",
+        "Luka Garšvaitė / Aušra Sabė",
+        "Ieva Juozelėnaitė / Otilija Baguckiene",
+        "Lina Beigienė / Danutė Aidukonytė-Sidarevičienė",
+        "Audra Ginelevičienė / Loreta Satkauskienė"
+      ],
+      "scores": [
+        [
+          "",
+          "6:4 4:6 5:10",
+          "6:2 6:4",
+          "6:4 7:5",
+          "3:6 0:6",
+          "7:5 7:5",
+          "3:6 6:4 10:4",
+          "1:6 6:4 10:7"
+        ],
+        [
+          "4:6 6:4 10:5",
+          "",
+          "6:3 6:2",
+          "4:6 7:6 10:5",
+          "6:4 2:6 10:2",
+          "1:6 4:6",
+          "7:6 7:5",
+          "7:6 6:2"
+        ],
+        [
+          "2:6 4:6",
+          "3:6 2:6",
+          "",
+          "3:6 2:6",
+          "0:6 3:6",
+          "1:6 2:6",
+          "0:6 0:6",
+          "1:6 3:6"
+        ],
+        [
+          "4:6 5:7",
+          "6:4 6:7 5:10",
+          "6:3 6:2",
+          "",
+          "2:6 2:6",
+          "4:6 0:6",
+          "4:6 5:7",
+          "0"
+        ],
+        [
+          "6:3 6:0",
+          "4:6 6:2 2:10",
+          "6:0 6:3",
+          "6:2 6:2",
+          "",
+          "6:2 6:3",
+          "7:6 6:4",
+          "6:4 4:6 7:10"
+        ],
+        [
+          "5:7 5:7",
+          "6:1 6:4",
+          "6:1 6:2",
+          "6:4 6:0",
+          "2:6 3:6",
+          "",
+          "5:7 5:7",
+          "6:1 2:6 10:4"
+        ],
+        [
+          "6:3 4:6 4:10",
+          "6:7 5:7",
+          "6:0 6:0",
+          "6:4 7:5",
+          "6:7 4:6",
+          "7:5 7:5",
+          "",
+          "6:3 2:6 10:6"
+        ],
+        [
+          "6:1 4:6 7:10",
+          "6:7 2:6",
+          "6:1 6:3",
+          "0",
+          "4:6 6:4 10:7",
+          "1:6 6:2 4:10",
+          "3:6 6:2 6:10",
+          ""
+        ]
+      ],
+      "points": [
+        5,
+        6,
+        0,
+        1,
+        5,
+        4,
+        4,
+        2
+      ],
+      "places": [
+        2,
+        1,
+        8,
+        7,
+        3,
+        4,
+        5,
+        6
+      ],
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Moterys dvejetai-11-LIGHT - FINALAS",
+      "title": "LIGHT - FINALAS",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-light",
+      "league": "Light",
+      "kind": "finalas",
+      "layout": "tree",
+      "slots": [
+        "Inga Gineikienė / Agnė Bureikė",
+        "x",
+        "Daina Šarakauskienė / Alina Avižonienė",
+        "Laura Kaminskienė / Aira Vadapolaitė",
+        "Vaidutė Puraitė / Jurgita Kondratienė",
+        "Ingrida Aksinavičienė / Monika Juozapaitiene",
+        "x",
+        "Odeta Kardauskė / Rūta Janulevičienė"
+      ],
+      "rounds": [
+        {
+          "label": "Ketvirtfinalis",
+          "matches": [
+            {
+              "home": "Inga Gineikienė / Agnė Bureikė",
+              "away": "x",
+              "score": "",
+              "winner": "Inga Gineikienė / Agnė Bureikė"
+            },
+            {
+              "home": "Daina Šarakauskienė / Alina Avižonienė",
+              "away": "Laura Kaminskienė / Aira Vadapolaitė",
+              "score": "6:7 2:6",
+              "winner": "Laura Kaminskienė / Aira Vadapolaitė"
+            },
+            {
+              "home": "Vaidutė Puraitė / Jurgita Kondratienė",
+              "away": "Ingrida Aksinavičienė / Monika Juozapaitiene",
+              "score": "6:2 6:3",
+              "winner": "Vaidutė Puraitė / Jurgita Kondratienė"
+            },
+            {
+              "home": "x",
+              "away": "Odeta Kardauskė / Rūta Janulevičienė",
+              "score": "",
+              "winner": "Odeta Kardauskė / Rūta Janulevičienė"
+            }
+          ]
+        },
+        {
+          "label": "Pusfinalis",
+          "matches": [
+            {
+              "home": "Inga Gineikienė / Agnė Bureikė",
+              "away": "Laura Kaminskienė / Aira Vadapolaitė",
+              "score": "6:4 4:6 5:10",
+              "winner": "Laura Kaminskienė / Aira Vadapolaitė"
+            },
+            {
+              "home": "Vaidutė Puraitė / Jurgita Kondratienė",
+              "away": "Odeta Kardauskė / Rūta Janulevičienė",
+              "score": "2:6 6:7",
+              "winner": "Odeta Kardauskė / Rūta Janulevičienė"
+            }
+          ]
+        },
+        {
+          "label": "Finalas",
+          "matches": [
+            {
+              "home": "Laura Kaminskienė / Aira Vadapolaitė",
+              "away": "Odeta Kardauskė / Rūta Janulevičienė",
+              "score": "6:3 7:6 10:7",
+              "winner": "Laura Kaminskienė / Aira Vadapolaitė"
+            }
+          ]
+        }
+      ],
+      "champion": "Laura Kaminskienė / Aira Vadapolaitė",
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Moterys dvejetai-12-LIGHT - dėl 3 vietos",
+      "title": "LIGHT - dėl 3 vietos",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-light",
+      "league": "Light",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Inga Gineikienė / Agnė Bureikė",
+        "Vaidutė Puraitė / Jurgita Kondratienė"
+      ],
+      "scores": [
+        [
+          "",
+          "b.ž. 0"
+        ],
+        [
+          "b.ž. 0",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        0
+      ],
+      "places": [
+        0,
+        0
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys dvejetai-13-LIGHT - PAGUODA",
+      "title": "LIGHT - PAGUODA",
+      "group": "Moterys dvejetai",
+      "drawId": "moterys-dvejetai-light",
+      "league": "Light",
+      "kind": "paguoda",
+      "layout": "tree",
+      "slots": [
+        "Rimvydė Kuktorienė / Barbora Žilaitytė",
+        "x",
+        "x",
+        "Justina Jurgaityte – Karpė / Viltė Vasiliauskaitė",
+        "Regina Auškalnienė / Džilda Veličkienė",
+        "Olivija Dobilienė / Ieva Jonauskienė",
+        "x",
+        "Skaidra Valiukevičienė / Dalia Rukanskienė"
+      ],
+      "rounds": [
+        {
+          "label": "Ketvirtfinalis",
+          "matches": [
+            {
+              "home": "Rimvydė Kuktorienė / Barbora Žilaitytė",
+              "away": "x",
+              "score": "",
+              "winner": "Rimvydė Kuktorienė / Barbora Žilaitytė"
+            },
+            {
+              "home": "x",
+              "away": "Justina Jurgaityte – Karpė / Viltė Vasiliauskaitė",
+              "score": "",
+              "winner": "Justina Jurgaityte – Karpė / Viltė Vasiliauskaitė"
+            },
+            {
+              "home": "Regina Auškalnienė / Džilda Veličkienė",
+              "away": "Olivija Dobilienė / Ieva Jonauskienė",
+              "score": "b.ž. 1:0",
+              "winner": "Regina Auškalnienė / Džilda Veličkienė"
+            },
+            {
+              "home": "x",
+              "away": "Skaidra Valiukevičienė / Dalia Rukanskienė",
+              "score": "",
+              "winner": "Skaidra Valiukevičienė / Dalia Rukanskienė"
+            }
+          ]
+        },
+        {
+          "label": "Pusfinalis",
+          "matches": [
+            {
+              "home": "Rimvydė Kuktorienė / Barbora Žilaitytė",
+              "away": "Justina Jurgaityte – Karpė / Viltė Vasiliauskaitė",
+              "score": "b.ž. 1:0",
+              "winner": "Rimvydė Kuktorienė / Barbora Žilaitytė"
+            },
+            {
+              "home": "Regina Auškalnienė / Džilda Veličkienė",
+              "away": "Skaidra Valiukevičienė / Dalia Rukanskienė",
+              "score": "2:6 4:6",
+              "winner": "Skaidra Valiukevičienė / Dalia Rukanskienė"
+            }
+          ]
+        },
+        {
+          "label": "Finalas",
+          "matches": [
+            {
+              "home": "Rimvydė Kuktorienė / Barbora Žilaitytė",
+              "away": "Skaidra Valiukevičienė / Dalia Rukanskienė",
+              "score": "0:0",
+              "winner": ""
+            }
+          ]
+        }
+      ],
+      "champion": "Rimvydė Kuktorienė / Barbora Žilaitytė",
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Moterys vienetai-0-MIDDLE - FINALAS",
+      "title": "MIDDLE - FINALAS",
+      "group": "Moterys vienetai",
+      "drawId": "moterys-vienetai-middle",
+      "league": "Middle",
+      "kind": "finalas",
+      "layout": "matrix",
+      "teams": [
+        "Evelina Pangonienė",
+        "Emilija Sakavičiūtė"
+      ],
+      "scores": [
+        [
+          "",
+          "0:6 5:7"
+        ],
+        [
+          "6:0 7:5",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1
+      ],
+      "places": [
+        2,
+        1
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys vienetai-1-MIDDLE - dėl 3 vietos",
+      "title": "MIDDLE - dėl 3 vietos",
+      "group": "Moterys vienetai",
+      "drawId": "moterys-vienetai-middle",
+      "league": "Middle",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Gintarė Eimantaitė Armalė",
+        "Jurgita Markevičienė"
+      ],
+      "scores": [
+        [
+          "",
+          "0"
+        ],
+        [
+          "0",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        0
+      ],
+      "places": [
+        0,
+        0
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys vienetai-2-MIDDLE - PAGUODA - Pusfinalis I",
+      "title": "MIDDLE - PAGUODA - Pusfinalis I",
+      "group": "Moterys vienetai",
+      "drawId": "moterys-vienetai-middle",
+      "league": "Middle",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Barbora Žilaitytė",
+        "Kristina Žvinienė"
+      ],
+      "scores": [
+        [
+          "",
+          "6:4 6:4"
+        ],
+        [
+          "4:6 4:6",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Moterys vienetai-3-MIDDLE - PAGUODA - Pusfinalis II",
+      "title": "MIDDLE - PAGUODA - Pusfinalis II",
+      "group": "Moterys vienetai",
+      "drawId": "moterys-vienetai-middle",
+      "league": "Middle",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Julija Urbonė",
+        "Ingrida Ščiuckienė"
+      ],
+      "scores": [
+        [
+          "",
+          "b.ž. 0"
+        ],
+        [
+          "b.ž. 1",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1
+      ],
+      "places": [
+        2,
+        1
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai dvejetai-0-MASTERS - FINALAS",
+      "title": "MASTERS - FINALAS",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-masters",
+      "league": "Masters",
+      "kind": "finalas",
+      "layout": "tree",
+      "slots": [
+        "Tomas Andziulis / Simonas Žukauskas",
+        "x",
+        "Norbertas Lipinskas / Aidas Tratulis",
+        "Aurimas Girdžijauskas / Ignas Kaduševičius",
+        "Rostislav Vyrostko / Laurynas Adomavičius",
+        "Anton Hegelmann / Gvidas Sabeckis",
+        "x",
+        "Balys Žaliūnas / Marius Mėgelaitis"
+      ],
+      "rounds": [
+        {
+          "label": "Ketvirtfinalis",
+          "matches": [
+            {
+              "home": "Tomas Andziulis / Simonas Žukauskas",
+              "away": "x",
+              "score": "",
+              "winner": "Tomas Andziulis / Simonas Žukauskas"
+            },
+            {
+              "home": "Norbertas Lipinskas / Aidas Tratulis",
+              "away": "Aurimas Girdžijauskas / Ignas Kaduševičius",
+              "score": "6:3 7:5",
+              "winner": "Norbertas Lipinskas / Aidas Tratulis"
+            },
+            {
+              "home": "Rostislav Vyrostko / Laurynas Adomavičius",
+              "away": "Anton Hegelmann / Gvidas Sabeckis",
+              "score": "6:4 4:6 6:10",
+              "winner": "Anton Hegelmann / Gvidas Sabeckis"
+            },
+            {
+              "home": "x",
+              "away": "Balys Žaliūnas / Marius Mėgelaitis",
+              "score": "",
+              "winner": "Balys Žaliūnas / Marius Mėgelaitis"
+            }
+          ]
+        },
+        {
+          "label": "Pusfinalis",
+          "matches": [
+            {
+              "home": "Tomas Andziulis / Simonas Žukauskas",
+              "away": "Norbertas Lipinskas / Aidas Tratulis",
+              "score": "6:3 6:1",
+              "winner": "Tomas Andziulis / Simonas Žukauskas"
+            },
+            {
+              "home": "Anton Hegelmann / Gvidas Sabeckis",
+              "away": "Balys Žaliūnas / Marius Mėgelaitis",
+              "score": "4:6 6:1 8:10",
+              "winner": "Balys Žaliūnas / Marius Mėgelaitis"
+            }
+          ]
+        },
+        {
+          "label": "Finalas",
+          "matches": [
+            {
+              "home": "Tomas Andziulis / Simonas Žukauskas",
+              "away": "Balys Žaliūnas / Marius Mėgelaitis",
+              "score": "6:0 6:2",
+              "winner": "Tomas Andziulis / Simonas Žukauskas"
+            }
+          ]
+        }
+      ],
+      "champion": "Tomas Andziulis / Simonas Žukauskas",
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Vyrai dvejetai-1-MASTERS - dėl 3 vietos",
+      "title": "MASTERS - dėl 3 vietos",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-masters",
+      "league": "Masters",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Anton Hegelmann / Gvidas Sabeckis",
+        "Norbertas Lipinskas / Aidas Tratulis"
+      ],
+      "scores": [
+        [
+          "",
+          "6:2 2:6 8:10"
+        ],
+        [
+          "2:6 6:2 10:8",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1
+      ],
+      "places": [
+        2,
+        1
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai dvejetai-2-MASTERS - paguodos FINALAS",
+      "title": "MASTERS - paguodos FINALAS",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-masters",
+      "league": "Masters",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Aurimas Karpavičius / Darius Vasiliauskas",
+        "Matas Lukševičius / Vilius Vasaris"
+      ],
+      "scores": [
+        [
+          "",
+          "6:4 6:7 8:10"
+        ],
+        [
+          "4:6 7:6 10:8",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1
+      ],
+      "places": [
+        2,
+        1
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai dvejetai-3-MASTERS - PAGUODA - Pusfinalis I",
+      "title": "MASTERS - PAGUODA - Pusfinalis I",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-masters",
+      "league": "Masters",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Aurimas Karpavičius / Darius Vasiliauskas",
+        "Marius Stasiškis / Dovydas Šabūnas"
+      ],
+      "scores": [
+        [
+          "",
+          "b.ž. 1"
+        ],
+        [
+          "b.ž. 0",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai dvejetai-4-MASTERS - PAGUODA - Pusfinalis II",
+      "title": "MASTERS - PAGUODA - Pusfinalis II",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-masters",
+      "league": "Masters",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Matas Lukševičius / Vilius Vasaris",
+        "Kaj Pirogov / Dainius Razukevičius"
+      ],
+      "scores": [
+        [
+          "",
+          "b.ž. 1"
+        ],
+        [
+          "b.ž. 0",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai dvejetai-5-POWER - FINALAS",
+      "title": "POWER - FINALAS",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-power",
+      "league": "Power",
+      "kind": "finalas",
+      "layout": "tree",
+      "slots": [
+        "Anton Hegelmann / Darius Augustinaitis",
+        "x",
+        "Rinaldas Viliušis / Adrijus Melnikas",
+        "Balys Žaliūnas / Giedrius Leonavičius",
+        "Vilius Vasaris / Dovydas Blinkus",
+        "Mantas Statulevičius / Ignas Tamulionis",
+        "x",
+        "Tomas Andziulis / Jurgis Čėsna"
+      ],
+      "rounds": [
+        {
+          "label": "Ketvirtfinalis",
+          "matches": [
+            {
+              "home": "Anton Hegelmann / Darius Augustinaitis",
+              "away": "x",
+              "score": "",
+              "winner": "Anton Hegelmann / Darius Augustinaitis"
+            },
+            {
+              "home": "Rinaldas Viliušis / Adrijus Melnikas",
+              "away": "Balys Žaliūnas / Giedrius Leonavičius",
+              "score": "5:7 6:4 9:11",
+              "winner": "Balys Žaliūnas / Giedrius Leonavičius"
+            },
+            {
+              "home": "Vilius Vasaris / Dovydas Blinkus",
+              "away": "Mantas Statulevičius / Ignas Tamulionis",
+              "score": "6:1 6:0",
+              "winner": "Vilius Vasaris / Dovydas Blinkus"
+            },
+            {
+              "home": "x",
+              "away": "Tomas Andziulis / Jurgis Čėsna",
+              "score": "",
+              "winner": "Tomas Andziulis / Jurgis Čėsna"
+            }
+          ]
+        },
+        {
+          "label": "Pusfinalis",
+          "matches": [
+            {
+              "home": "Anton Hegelmann / Darius Augustinaitis",
+              "away": "Balys Žaliūnas / Giedrius Leonavičius",
+              "score": "4:6 6:1 8:10",
+              "winner": "Balys Žaliūnas / Giedrius Leonavičius"
+            },
+            {
+              "home": "Vilius Vasaris / Dovydas Blinkus",
+              "away": "Tomas Andziulis / Jurgis Čėsna",
+              "score": "3:6 1:6",
+              "winner": "Tomas Andziulis / Jurgis Čėsna"
+            }
+          ]
+        },
+        {
+          "label": "Finalas",
+          "matches": [
+            {
+              "home": "Balys Žaliūnas / Giedrius Leonavičius",
+              "away": "Tomas Andziulis / Jurgis Čėsna",
+              "score": "0:6 2:6",
+              "winner": "Tomas Andziulis / Jurgis Čėsna"
+            }
+          ]
+        }
+      ],
+      "champion": "Tomas Andziulis / Jurgis Čėsna",
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Vyrai dvejetai-6-POWER dėl 3 vietos",
+      "title": "POWER dėl 3 vietos",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-power",
+      "league": "Power",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Anton Hegelmann / Darius Augustinaitis",
+        "Vilius Vasaris / Dovydas Blinkus"
+      ],
+      "scores": [
+        [
+          "",
+          "7:6 6:3"
+        ],
+        [
+          "6:7 3:6",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai dvejetai-7-POWER - PAGUODA",
+      "title": "POWER - PAGUODA",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-power",
+      "league": "Power",
+      "kind": "paguoda",
+      "layout": "tree",
+      "slots": [
+        "Tomas Labanauskas / Gytis Kalvinskas",
+        "x",
+        "Giedrius Elzbergas / Vitalis Mackevičius",
+        "Tomas Kavolius / Audrius Jokubauskas",
+        "Tomas Išganaitis / Vilius Helmas",
+        "Arnoldas Atkočaitis / Lukas Dunčikas",
+        "x",
+        "Arūnas Rozga / Raimundas Šlepikas"
+      ],
+      "rounds": [
+        {
+          "label": "Ketvirtfinalis",
+          "matches": [
+            {
+              "home": "Tomas Labanauskas / Gytis Kalvinskas",
+              "away": "x",
+              "score": "",
+              "winner": "Tomas Labanauskas / Gytis Kalvinskas"
+            },
+            {
+              "home": "Giedrius Elzbergas / Vitalis Mackevičius",
+              "away": "Tomas Kavolius / Audrius Jokubauskas",
+              "score": "b.ž. 0:1",
+              "winner": "Tomas Kavolius / Audrius Jokubauskas"
+            },
+            {
+              "home": "Tomas Išganaitis / Vilius Helmas",
+              "away": "Arnoldas Atkočaitis / Lukas Dunčikas",
+              "score": "5:7 6:4 13:11",
+              "winner": "Tomas Išganaitis / Vilius Helmas"
+            },
+            {
+              "home": "x",
+              "away": "Arūnas Rozga / Raimundas Šlepikas",
+              "score": "",
+              "winner": "Arūnas Rozga / Raimundas Šlepikas"
+            }
+          ]
+        },
+        {
+          "label": "Pusfinalis",
+          "matches": [
+            {
+              "home": "Tomas Labanauskas / Gytis Kalvinskas",
+              "away": "Tomas Kavolius / Audrius Jokubauskas",
+              "score": "b.ž. 0:1",
+              "winner": "Tomas Kavolius / Audrius Jokubauskas"
+            },
+            {
+              "home": "Tomas Išganaitis / Vilius Helmas",
+              "away": "Arūnas Rozga / Raimundas Šlepikas",
+              "score": "b.ž. 1:0",
+              "winner": "Tomas Išganaitis / Vilius Helmas"
+            }
+          ]
+        },
+        {
+          "label": "Finalas",
+          "matches": [
+            {
+              "home": "Tomas Kavolius / Audrius Jokubauskas",
+              "away": "Tomas Išganaitis / Vilius Helmas",
+              "score": "3:6 6:7",
+              "winner": "Tomas Išganaitis / Vilius Helmas"
+            }
+          ]
+        }
+      ],
+      "champion": "Tomas Išganaitis / Vilius Helmas",
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Vyrai dvejetai-8-MIDDLE - FINALAS",
+      "title": "MIDDLE - FINALAS",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-middle-2",
+      "league": "Middle 2",
+      "kind": "finalas",
+      "layout": "matrix",
+      "teams": [
+        "Darius Šuliokas / Vytautas Aikevičius",
+        "Rostislav Vyrostko / Audrius Jokubauskas"
+      ],
+      "scores": [
+        [
+          "",
+          "6:1 4:6 10:6"
+        ],
+        [
+          "1:6 6:4 6:10",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai dvejetai-9-MIDDLE - dėl 3 vietos",
+      "title": "MIDDLE - dėl 3 vietos",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-middle-2",
+      "league": "Middle 2",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Rimantas Šernius / Nerimas Bulatovas",
+        "Ilmaras Melnikas / Josefas Ellert"
+      ],
+      "scores": [
+        [
+          "",
+          "b.ž. 0"
+        ],
+        [
+          "b.ž. 0",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        0
+      ],
+      "places": [
+        0,
+        0
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai dvejetai-10-MIDDLE - FINALAS",
+      "title": "MIDDLE - FINALAS",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-middle-1",
+      "league": "Middle 1",
+      "kind": "finalas",
+      "layout": "matrix",
+      "teams": [
+        "Rimantas Šernius / Nerimas Bulatovas",
+        "Aidas Valiukevičius / Diemantas Gudaitis",
+        "Nerijus Virkšas / Paulius Dunauskas",
+        "Valdas Lukšas / Tomas Noreika",
+        "Darius Šuliokas / Vytautas Aikevičius",
+        "Rostislav Vyrostko / Audrius Jokubauskas",
+        "Ilmaras Melnikas / Josefas Ellert",
+        "Stasys Auškalnis / Daivaras Danielius"
+      ],
+      "scores": [
+        [
+          "",
+          "7:5 6:3",
+          "7:6 6:1",
+          "6:3 6:4",
+          "2:6 1:6",
+          "2:6 3:6",
+          "6:7 0:6",
+          "7:5 6:1"
+        ],
+        [
+          "5:7 3:6",
+          "",
+          "6:3 4:6 10:8",
+          "6:3 1:6 5:10",
+          "2:6 4:6",
+          "0:6 2:6",
+          "2:6 2:6",
+          "6:0 7:6"
+        ],
+        [
+          "6:7 1:6",
+          "3:6 6:4 8:10",
+          "",
+          "5:7 4:6",
+          "2:6 7:5 10:8",
+          "1:6 6:7",
+          "0:6 2:6",
+          "3:6 6:3 7:10"
+        ],
+        [
+          "3:6 4:6",
+          "3:6 6:1 10:5",
+          "7:5 6:4",
+          "",
+          "b.ž. 0",
+          "4:6 3:6",
+          "3:6 4:6",
+          "4:6 0:6"
+        ],
+        [
+          "6:2 6:1",
+          "6:2 6:4",
+          "6:2 5:7 8:10",
+          "b.ž. 1",
+          "",
+          "1:6 6:3 11:9",
+          "6:4 6:4",
+          "6:0 6:4"
+        ],
+        [
+          "6:2 6:3",
+          "6:0 6:2",
+          "6:1 7:6",
+          "6:4 6:3",
+          "6:1 3:6 9:11",
+          "",
+          "6:2 6:2",
+          "7:5 6:1"
+        ],
+        [
+          "7:6 6:0",
+          "6:2 6:2",
+          "6:0 6:2",
+          "6:3 6:4",
+          "4:6 4:6",
+          "2:6 2:6",
+          "",
+          "6:1 6:1"
+        ],
+        [
+          "5:7 1:6",
+          "0:6 6:7",
+          "6:3 3:6 10:7",
+          "6:4 6:0",
+          "0:6 4:6",
+          "5:7 1:6",
+          "1:6 1:6",
+          ""
+        ]
+      ],
+      "points": [
+        4,
+        2,
+        1,
+        2,
+        6,
+        6,
+        5,
+        2
+      ],
+      "places": [
+        4,
+        5,
+        8,
+        6,
+        1,
+        2,
+        3,
+        7
+      ],
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Vyrai dvejetai-11-MIDDLE - Paguodos FINALAS",
+      "title": "MIDDLE - Paguodos FINALAS",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-middle-1",
+      "league": "Middle 1",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Julius Gineika / Donatas Kuktoras",
+        "Andrius Lukošius / Vytautas Marcinkus"
+      ],
+      "scores": [
+        [
+          "",
+          "1:6 6:7"
+        ],
+        [
+          "6:1 7:6",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1
+      ],
+      "places": [
+        2,
+        1
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai dvejetai-12-MIDDLE - PAGUODA",
+      "title": "MIDDLE - PAGUODA",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-middle-2",
+      "league": "Middle 2",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Kazys Raicevičius / Robertas Kozulis",
+        "Darius Grigaitis / Linas Eidimtas",
+        "Marius Stasiškis / Vytautas Juozapaitis",
+        "Julius Gineika / Donatas Kuktoras",
+        "Žilvinas Gasiūnas / Paulius Minajevas",
+        "Andrius Lukošius / Vytautas Marcinkus"
+      ],
+      "scores": [
+        [
+          "",
+          "0",
+          "5:7 7:6 8:10",
+          "0",
+          "0",
+          "4:6 0:6"
+        ],
+        [
+          "0",
+          "",
+          "4:6 6:4 3:10",
+          "4:6 6:2 4:10",
+          "7:5 7:6",
+          "7:5 6:4"
+        ],
+        [
+          "7:5 6:7 10:8",
+          "6:4 4:6 10:3",
+          "",
+          "b.ž. 0",
+          "0",
+          "b.ž. 0"
+        ],
+        [
+          "0",
+          "6:4 2:6 10:4",
+          "b.ž. 1",
+          "",
+          "4:6 4:6",
+          "7:6 4:6 10:8"
+        ],
+        [
+          "0",
+          "5:7 6:7",
+          "0",
+          "6:4 6:4",
+          "",
+          "b.ž. 0"
+        ],
+        [
+          "6:4 6:0",
+          "5:7 4:6",
+          "b.ž. 1",
+          "6:7 6:4 8:10",
+          "b.ž. 1",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        2,
+        2,
+        3,
+        1,
+        3
+      ],
+      "places": [
+        6,
+        3,
+        4,
+        1,
+        5,
+        2
+      ],
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Vyrai dvejetai-13-CHALLENGER - FINALAS",
+      "title": "CHALLENGER - FINALAS",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-challenger",
+      "league": "Challenger",
+      "kind": "finalas",
+      "layout": "tree",
+      "slots": [
+        "Donatas Kuktoras / Andrius Lukošius",
+        "x",
+        "Vytis Gurevičius / Marius Pupeikis",
+        "Giedrius Pacevičius / Andrius Kondratas",
+        "Žydrūnas Girdzijauskas / Rimantas Nastajus",
+        "Imantas Vaitiekūnas / Marius Janušauskas",
+        "x",
+        "Rolandas Musneckis / Marius Bagdonas"
+      ],
+      "rounds": [
+        {
+          "label": "Ketvirtfinalis",
+          "matches": [
+            {
+              "home": "Donatas Kuktoras / Andrius Lukošius",
+              "away": "x",
+              "score": "",
+              "winner": "Donatas Kuktoras / Andrius Lukošius"
+            },
+            {
+              "home": "Vytis Gurevičius / Marius Pupeikis",
+              "away": "Giedrius Pacevičius / Andrius Kondratas",
+              "score": "4:6 6:0 11:13",
+              "winner": "Giedrius Pacevičius / Andrius Kondratas"
+            },
+            {
+              "home": "Žydrūnas Girdzijauskas / Rimantas Nastajus",
+              "away": "Imantas Vaitiekūnas / Marius Janušauskas",
+              "score": "3:6 6:2 10:2",
+              "winner": "Žydrūnas Girdzijauskas / Rimantas Nastajus"
+            },
+            {
+              "home": "x",
+              "away": "Rolandas Musneckis / Marius Bagdonas",
+              "score": "",
+              "winner": "Rolandas Musneckis / Marius Bagdonas"
+            }
+          ]
+        },
+        {
+          "label": "Pusfinalis",
+          "matches": [
+            {
+              "home": "Donatas Kuktoras / Andrius Lukošius",
+              "away": "Giedrius Pacevičius / Andrius Kondratas",
+              "score": "6:0 6:2",
+              "winner": "Donatas Kuktoras / Andrius Lukošius"
+            },
+            {
+              "home": "Žydrūnas Girdzijauskas / Rimantas Nastajus",
+              "away": "Rolandas Musneckis / Marius Bagdonas",
+              "score": "4:6 3:6",
+              "winner": "Rolandas Musneckis / Marius Bagdonas"
+            }
+          ]
+        },
+        {
+          "label": "Finalas",
+          "matches": [
+            {
+              "home": "Donatas Kuktoras / Andrius Lukošius",
+              "away": "Rolandas Musneckis / Marius Bagdonas",
+              "score": "6:4 2:6 5:10",
+              "winner": "Rolandas Musneckis / Marius Bagdonas"
+            }
+          ]
+        }
+      ],
+      "champion": "Rolandas Musneckis / Marius Bagdonas",
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Vyrai dvejetai-14-CHALLENGER dėl 3 vietos",
+      "title": "CHALLENGER dėl 3 vietos",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-challenger",
+      "league": "Challenger",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Giedrius Pacevičius / Andrius Kondratas",
+        "Žydrūnas Girdzijauskas / Rimantas Nastajus"
+      ],
+      "scores": [
+        [
+          "",
+          "3:6 0:6"
+        ],
+        [
+          "6:3 6:0",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1
+      ],
+      "places": [
+        2,
+        1
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai dvejetai-15-CHALLENGER - PAGUODA",
+      "title": "CHALLENGER - PAGUODA",
+      "group": "Vyrai dvejetai",
+      "drawId": "vyrai-dvejetai-challenger",
+      "league": "Challenger",
+      "kind": "paguoda",
+      "layout": "tree",
+      "slots": [
+        "Vaidotas Kazlauskas / Sarunas Putrius",
+        "x",
+        "x",
+        "Mantas Karpius / Matas Kilinskas",
+        "Domantas Baguckis / Gintaras Baguckis",
+        "Lukas Raicevičius / Germantas Kavaliauskas",
+        "x",
+        "Valentinas Ruzgys / Kęstutis Lukauskis"
+      ],
+      "rounds": [
+        {
+          "label": "Ketvirtfinalis",
+          "matches": [
+            {
+              "home": "Vaidotas Kazlauskas / Sarunas Putrius",
+              "away": "x",
+              "score": "",
+              "winner": "Vaidotas Kazlauskas / Sarunas Putrius"
+            },
+            {
+              "home": "x",
+              "away": "Mantas Karpius / Matas Kilinskas",
+              "score": "",
+              "winner": "Mantas Karpius / Matas Kilinskas"
+            },
+            {
+              "home": "Domantas Baguckis / Gintaras Baguckis",
+              "away": "Lukas Raicevičius / Germantas Kavaliauskas",
+              "score": "0:0",
+              "winner": ""
+            },
+            {
+              "home": "x",
+              "away": "Valentinas Ruzgys / Kęstutis Lukauskis",
+              "score": "",
+              "winner": "Valentinas Ruzgys / Kęstutis Lukauskis"
+            }
+          ]
+        },
+        {
+          "label": "Pusfinalis",
+          "matches": [
+            {
+              "home": "Vaidotas Kazlauskas / Sarunas Putrius",
+              "away": "Mantas Karpius / Matas Kilinskas",
+              "score": "6:3 6:2",
+              "winner": "Vaidotas Kazlauskas / Sarunas Putrius"
+            },
+            {
+              "home": "Domantas Baguckis / Gintaras Baguckis",
+              "away": "Valentinas Ruzgys / Kęstutis Lukauskis",
+              "score": "0",
+              "winner": ""
+            }
+          ]
+        },
+        {
+          "label": "Finalas",
+          "matches": [
+            {
+              "home": "Vaidotas Kazlauskas / Sarunas Putrius",
+              "away": "Domantas Baguckis / Gintaras Baguckis",
+              "score": "7:5 6:3",
+              "winner": "Vaidotas Kazlauskas / Sarunas Putrius"
+            }
+          ]
+        }
+      ],
+      "champion": "Vaidotas Kazlauskas / Sarunas Putrius",
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Vyrai vienetai-0-Middle VIENETAI - FINALAS",
+      "title": "Middle VIENETAI - FINALAS",
+      "group": "Vyrai vienetai",
+      "drawId": "vyrai-vienetai-middle-2",
+      "league": "Middle 2",
+      "kind": "finalas",
+      "layout": "matrix",
+      "teams": [
+        "Vytis Papečkys",
+        "Raimondas Maročka"
+      ],
+      "scores": [
+        [
+          "",
+          "6:0 6:1"
+        ],
+        [
+          "0:6 1:6",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai vienetai-1-Middle VIENETAI - dėl 3 vietos",
+      "title": "Middle VIENETAI - dėl 3 vietos",
+      "group": "Vyrai vienetai",
+      "drawId": "vyrai-vienetai-middle-2",
+      "league": "Middle 2",
+      "kind": "trecia",
+      "layout": "matrix",
+      "teams": [
+        "Arvydas Norus",
+        "Valdas Papečkys"
+      ],
+      "scores": [
+        [
+          "",
+          "b.ž. 0"
+        ],
+        [
+          "b.ž. 0",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        0
+      ],
+      "places": [
+        0,
+        0
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai vienetai-2-Paguodos FINALAS",
+      "title": "Paguodos FINALAS",
+      "group": "Vyrai vienetai",
+      "drawId": "vyrai-vienetai-middle-1",
+      "league": "Middle 1",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Mantas Statulevičius",
+        "Julius Gineika"
+      ],
+      "scores": [
+        [
+          "",
+          "6:1 6:4"
+        ],
+        [
+          "1:6 4:6",
+          ""
+        ]
+      ],
+      "points": [
+        1,
+        0
+      ],
+      "places": [
+        1,
+        2
+      ],
+      "size": "Finalas"
+    },
+    {
+      "id": "Vyrai vienetai-3-MIDDLE - FINALAS",
+      "title": "MIDDLE - FINALAS",
+      "group": "Vyrai vienetai",
+      "drawId": "vyrai-vienetai-middle-2",
+      "league": "Middle 2",
+      "kind": "finalas",
+      "layout": "matrix",
+      "teams": [
+        "Vytis Papečkys",
+        "Marius Stasiškis",
+        "Daivaras Danielius",
+        "Andrius Lukošius",
+        "Raimondas Maročka",
+        "Anton Hegelmann",
+        "Valdas Papečkys",
+        "Arvydas Norus"
+      ],
+      "scores": [
+        [
+          "",
+          "3:6 4:6",
+          "6:7 6:3 10:6",
+          "2:6 6:0 7:5",
+          "6:4 6:3",
+          "6:1 6:4",
+          "6:4 6:4",
+          "1:6 4:6"
+        ],
+        [
+          "6:3 6:4",
+          "",
+          "7:6 7:6",
+          "6:3 6:2",
+          "4:6 3:6",
+          "6:4 6:2",
+          "3:6 3:6",
+          "4:6 4:6"
+        ],
+        [
+          "7:6 3:6 6:10",
+          "6:7 6:7",
+          "",
+          "6:2 6:3",
+          "4:6 6:3 10:8",
+          "6:4 6:4",
+          "4:6 6:2 10:4",
+          "1:6 5:7"
+        ],
+        [
+          "6:2 0:6 5:7",
+          "3:6 2:6",
+          "2:6 3:6",
+          "",
+          "2:6 6:4 6:2",
+          "6:7 4:6",
+          "3:6 1:6",
+          "6:2 6:3"
+        ],
+        [
+          "4:6 3:6",
+          "6:4 6:3",
+          "6:4 3:6 8:10",
+          "6:2 4:6 2:6",
+          "",
+          "7:6 6:2",
+          "7:5 6:4",
+          "6:7 6:2 10:6"
+        ],
+        [
+          "1:6 4:6",
+          "4:6 2:6",
+          "4:6 4:6",
+          "7:6 6:4",
+          "6:7 2:6",
+          "",
+          "4:6 6:3 6:10",
+          "6:2 1:6 3:10"
+        ],
+        [
+          "4:6 4:6",
+          "6:3 6:3",
+          "6:4 2:6 4:10",
+          "6:3 6:1",
+          "5:7 4:6",
+          "6:4 3:6 10:6",
+          "",
+          "6:1 6:3"
+        ],
+        [
+          "6:1 6:4",
+          "6:4 6:4",
+          "6:1 7:5",
+          "2:6 3:6",
+          "7:6 2:6 6:10",
+          "2:6 6:1 10:3",
+          "1:6 3:6",
+          ""
+        ]
+      ],
+      "points": [
+        5,
+        4,
+        4,
+        2,
+        4,
+        1,
+        4,
+        4
+      ],
+      "places": [
+        1,
+        2,
+        3,
+        7,
+        4,
+        8,
+        5,
+        6
+      ],
+      "size": "8 lentelė"
+    },
+    {
+      "id": "Vyrai vienetai-4-MIDDLE - PAGUODA",
+      "title": "MIDDLE - PAGUODA",
+      "group": "Vyrai vienetai",
+      "drawId": "vyrai-vienetai-middle-2",
+      "league": "Middle 2",
+      "kind": "paguoda",
+      "layout": "matrix",
+      "teams": [
+        "Mindaugas Norkus",
+        "Nerijus Virkšas",
+        "Imantas Vaitiekūnas",
+        "Donatas Kuktoras",
+        "Karolis Černauskis",
+        "Mantas Statulevičius",
+        "Julius Gineika",
+        "Aidas Valiukevičius",
+        "Tadas Frišmantas"
+      ],
+      "scores": [
+        [
+          "",
+          "0",
+          "3:6 2:6",
+          "0",
+          "2:6 3:6",
+          "0",
+          "7:5 5:7 4:10",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "",
+          "6:2 6:3",
+          "0",
+          "0",
+          "b.ž. 0",
+          "b.ž. 0",
+          "0",
+          "0"
+        ],
+        [
+          "6:3 6:2",
+          "2:6 3:6",
+          "",
+          "0",
+          "7:6 6:3 11:9",
+          "2:6 2:6",
+          "6:4 0:6 8:10",
+          "3:6 6:3 6:10",
+          "6:7 6:7"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "",
+          "0",
+          "4:6 5:7",
+          "b.ž. 0",
+          "3:6 6:2 5:10",
+          "6:0 6:0"
+        ],
+        [
+          "6:2 6:3",
+          "0",
+          "6:7 3:6 9:11",
+          "0",
+          "",
+          "0",
+          "3:6 3:6",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "b.ž. 1",
+          "6:2 6:2",
+          "6:4 7:5",
+          "0",
+          "",
+          "2:6 6:3 10:4",
+          "7:6 6:4",
+          "6:0 6:0"
+        ],
+        [
+          "5:7 7:5 10:4",
+          "b.ž. 1",
+          "4:6 6:0 10:8",
+          "b.ž. 1",
+          "6:3 6:3",
+          "6:2 3:6 4:10",
+          "",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "6:3 3:6 10:6",
+          "6:3 2:6 10:5",
+          "0",
+          "6:7 4:6",
+          "0",
+          "",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "7:6 7:6",
+          "0:6 0:6",
+          "0",
+          "0:6 0:6",
+          "0",
+          "0",
+          ""
+        ]
+      ],
+      "points": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        6,
+        5,
+        2,
+        1
+      ],
+      "places": [
+        9,
+        5,
+        3,
+        6,
+        7,
+        1,
+        2,
+        4,
+        8
+      ],
+      "size": "16 lentelė"
+    }
+  ]
+}
