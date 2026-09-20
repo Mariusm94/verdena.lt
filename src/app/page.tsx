@@ -80,7 +80,7 @@ export default async function HomePage() {
       <section className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 md:grid-cols-2 md:px-6">
         <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem]">
           <Image
-            src="/images/hero/group-v2.jpg"
+            src="/images/hero/group-v3.jpg"
             alt="Verdenos bendruomenė"
             fill
             className="object-cover"

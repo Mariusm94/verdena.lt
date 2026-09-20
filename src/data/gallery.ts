@@ -9,7 +9,7 @@ export const galleryAlbums: {
     title: "Verdena — aikštelė ir bendruomenė",
     photos: [
       { src: "/images/gallery/cover-rakete.jpg", alt: "Raketė ir kamuoliukai ant molio korto" },
-      { src: "/images/hero/group-v2.jpg", alt: "Klubo bendruomenė ant korto" },
+      { src: "/images/hero/group-v3.jpg", alt: "Klubo bendruomenė ant korto" },
       { src: "/images/hero/outdoor-v2.jpg", alt: "Verdenos Facebook cover — raketė ant korto" },
       { src: "/images/hero/indoor-v2.jpg", alt: "Raketė ir kamuoliukai saulėlydyje" },
     ],
