@@ -25,7 +25,7 @@ export default async function HomePage() {
     <div>
       <section className="relative min-h-[92vh] overflow-hidden bg-court-deep text-white">
         <Image
-          src="/images/hero/outdoor.jpg"
+          src="/images/hero/outdoor-v2.jpg"
           alt="Tenisas Šilutėje — TK Verdena"
           fill
           priority
@@ -80,7 +80,7 @@ export default async function HomePage() {
       <section className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 md:grid-cols-2 md:px-6">
         <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem]">
           <Image
-            src="/images/hero/group.jpg"
+            src="/images/hero/group-v2.jpg"
             alt="Verdenos bendruomenė"
             fill
             className="object-cover"

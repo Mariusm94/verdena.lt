@@ -89,7 +89,7 @@ export default function Header() {
           aria-label="Verdėnos teniso klubas Šilutė"
         >
           <Image
-            src="/images/logo.png"
+            src="/images/logo-header.png"
             alt="TK Verdena Šilutė"
             width={200}
             height={63}
@@ -137,7 +137,7 @@ export default function Header() {
               href="/naryste"
               className="inline-flex rounded-full bg-gold px-2.5 py-1.5 text-xs font-semibold text-court-deep hover:bg-gold-deep sm:px-4 sm:py-2 sm:text-sm"
             >
-              Prisijungti
+              Tapti nariu
             </Link>
           ) : null}
           <button
@@ -245,7 +245,7 @@ export default function Header() {
                 href="/naryste"
                 className="rounded-full bg-gold px-4 py-3 text-center text-base font-semibold text-court-deep"
               >
-                Prisijungti
+                Tapti nariu
               </Link>
             ) : null}
           </div>

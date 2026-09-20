@@ -16,7 +16,7 @@ export default async function Footer() {
         <div>
           <Link href="/" className="inline-block">
             <Image
-              src="/images/logo.png"
+              src="/images/logo-header.png"
               alt={club.name}
               width={180}
               height={57}

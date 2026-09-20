@@ -42,7 +42,7 @@ export default async function AboutPage() {
         </div>
         <div className="relative min-h-80 overflow-hidden rounded-[2rem]">
           <Image
-            src="/images/hero/outdoor.jpg"
+            src="/images/hero/outdoor-v2.jpg"
             alt="TK Verdena"
             fill
             className="object-cover"
