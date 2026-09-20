@@ -5,7 +5,7 @@ export const club = {
   foundedDate: "1991 m. gegužės 2 d.",
   email: "zilwa72@gmail.com",
   phone: "+370 614 42 313",
-  facebook: "",
+  facebook: "https://www.facebook.com/profile.php?id=100054279649821",
   address: "Gluosnių g. 13B, Šilutė",
   company: "Šilutės lauko teniso sporto klubas „Verdena“",
   code: "177334615",

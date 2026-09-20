@@ -1,9 +1,20 @@
-/** Galerijos albumai — pildysime vėliau, kai bus teisiškai tinkamos Verdėnos nuotraukos. */
+/** Galerija — Verdenos FB cover + teniso hero medžiaga; albumą plėsime iš klubo archyvo. */
 export const galleryAlbums: {
   year: string;
   title: string;
   photos: { src: string; alt: string }[];
-}[] = [];
+}[] = [
+  {
+    year: "2026",
+    title: "Verdena — aikštelė ir bendruomenė",
+    photos: [
+      { src: "/images/gallery/cover-rakete.jpg", alt: "Raketė ir kamuoliukai ant molio korto" },
+      { src: "/images/gallery/bendruomene.jpg", alt: "Klubo bendruomenė ant korto" },
+      { src: "/images/gallery/kortas-aukso-valanda.jpg", alt: "Teniso kortas aukso valandoje" },
+      { src: "/images/gallery/rakete-kamuoliukai.jpg", alt: "Raketė ir kamuoliukai saulėlydyje" },
+    ],
+  },
+];
 
 export const videos: {
   title: string;
