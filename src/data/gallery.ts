@@ -1,18 +1,54 @@
-/** Galerija — atrinktos FB albumų grupinės / bendruomenės nuotraukos pagal metus. */
+/** Galerija — FB bendruomenės / žmonių nuotraukos pagal metus (be lentelių, dekorų, still-life). */
 export const galleryAlbums: {
   year: string;
   title: string;
   photos: { src: string; alt: string }[];
 }[] = [
   {
-    year: "2020+",
-    title: "Bendruomenė šiandien",
+    year: "2026",
+    title: "Bendruomenė ant korto",
     photos: [
-      { src: "/images/gallery/2020s/bendruomene.jpg", alt: "Verdenos nariai ant molio korto" },
-      { src: "/images/gallery/2020s/2020s-01.jpg", alt: "Klubo turnyrų akimirka" },
-      { src: "/images/gallery/2020s/2020s-02.jpg", alt: "Verdenos bendruomenė" },
-      { src: "/images/gallery/2020s/2020s-03.jpg", alt: "Turnyro dalyviai" },
-      { src: "/images/gallery/cover-rakete.jpg", alt: "Raketė ir kamuoliukai ant molio korto" },
+      { src: "/images/gallery/2026/2026-07.jpg", alt: "Didelė Verdenos grupė ant molio korto" },
+      { src: "/images/gallery/2026/2026-10.jpg", alt: "Klubo nariai kartu ant korto" },
+      { src: "/images/gallery/2026/2026-01.jpg", alt: "Nariai po turnyro ant korto" },
+      { src: "/images/gallery/2026/2026-02.jpg", alt: "Apdovanojimų akimirka su dalyviais" },
+      { src: "/images/gallery/2026/2026-03.jpg", alt: "Turnyro nugalėtojai ir organizatoriai" },
+      { src: "/images/gallery/2026/2026-04.jpg", alt: "Verdenos nariai su prizais" },
+      { src: "/images/gallery/2026/2026-05.jpg", alt: "Šventinė akimirka po mačo" },
+      { src: "/images/gallery/2026/2026-06.jpg", alt: "Apdovanojimai ant molio korto" },
+      { src: "/images/gallery/2026/2026-08.jpg", alt: "Verdenos bendruomenė 2026" },
+      { src: "/images/gallery/2026/2026-09.jpg", alt: "Klubo nariai turnyre" },
+    ],
+  },
+  {
+    year: "2025",
+    title: "Sezono susibūrimai",
+    photos: [
+      { src: "/images/gallery/2025/2025-06.jpg", alt: "Moterų grupė ant molio korto" },
+      { src: "/images/gallery/2025/2025-07.jpg", alt: "Žaidėjos po mačo" },
+      { src: "/images/gallery/2025/2025-08.jpg", alt: "Bendruomenės akimirka ant korto" },
+      { src: "/images/gallery/2025/2025-09.jpg", alt: "Verdenos nariai turnyre" },
+      { src: "/images/gallery/2025/2025-10.jpg", alt: "Šventinė akimirka su raketėmis" },
+      { src: "/images/gallery/2025/2025-01.jpg", alt: "Verdena #1 — nugalėtojai" },
+      { src: "/images/gallery/2025/2025-02.jpg", alt: "Naktinis tenisas ir bendruomenė" },
+      { src: "/images/gallery/2025/2025-03.jpg", alt: "Dalyviai po varžybų" },
+      { src: "/images/gallery/2025/2025-04.jpg", alt: "Klubo nariai kartu" },
+      { src: "/images/gallery/2025/2025-05.jpg", alt: "Draugiška akimirka po mačo" },
+    ],
+  },
+  {
+    year: "2024",
+    title: "Vasaros sezonas",
+    photos: [
+      { src: "/images/gallery/2024/2024-01.jpg", alt: "Bendruomenė prie stalo po mačų" },
+      { src: "/images/gallery/2024/2024-03.jpg", alt: "Žaidimas ant lauko korto" },
+      { src: "/images/gallery/2024/2024-04.jpg", alt: "Turnyro dalyviai kortuose" },
+      { src: "/images/gallery/2024/2024-05.jpg", alt: "Verdenos nariai varžybose" },
+      { src: "/images/gallery/2024/2024-06.jpg", alt: "Žaidėja ant korto" },
+      { src: "/images/gallery/2024/2024-07.jpg", alt: "Klubo dienos akimirka" },
+      { src: "/images/gallery/2024/2024-08.jpg", alt: "Pokalbiai tarp mačų" },
+      { src: "/images/gallery/2024/2024-09.jpg", alt: "Sezono atmosfera 2024" },
+      { src: "/images/gallery/2024/2024-02.jpg", alt: "Teniso diena Šilutėje" },
     ],
   },
   {
@@ -45,7 +81,6 @@ export const galleryAlbums: {
       { src: "/images/gallery/2014/2014-03.jpg", alt: "Turnyro dalyviai su raketėmis" },
       { src: "/images/gallery/2014/2014-02.jpg", alt: "Verdenos žaidėjai 2014" },
       { src: "/images/gallery/2014/2014-04.jpg", alt: "Turnyro komandinė nuotrauka" },
-      { src: "/images/gallery/2014/2014-05.jpg", alt: "Šv. Valentino 2014 taurės ir lentelė" },
     ],
   },
 ];
