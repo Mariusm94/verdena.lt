@@ -17,7 +17,7 @@ export default function GalleryView({ albums }: { albums: Album[] }) {
       <PageHeader
         eyebrow="Galerija"
         title="Nuotraukų archyvas"
-        text="Turnyrai, šventės ir klubo gyvenimas — nuo šiandienos iki istorinių dokumentų."
+        text="Turnyrai, šventės ir klubo gyvenimas — bendruomenės nuotraukos pagal metus."
       />
       <section className="mx-auto max-w-7xl px-4 py-16 md:px-6">
         {albums.length === 0 ? (
@@ -27,7 +27,8 @@ export default function GalleryView({ albums }: { albums: Album[] }) {
         ) : null}
         {albums.map((album) => (
           <div key={`${album.year}-${album.title}`} className="mb-14">
-            <h2 className="font-display text-4xl">{album.title}</h2>
+            <p className="text-sm font-semibold tracking-[0.28em] text-court uppercase">{album.year}</p>
+            <h2 className="mt-2 font-display text-4xl">{album.title}</h2>
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {album.photos.map((photo) => (
                 <button

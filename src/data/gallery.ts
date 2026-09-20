@@ -1,17 +1,51 @@
-/** Galerija — Verdenos FB cover + teniso hero medžiaga; albumą plėsime iš klubo archyvo. */
+/** Galerija — atrinktos FB albumų grupinės / bendruomenės nuotraukos pagal metus. */
 export const galleryAlbums: {
   year: string;
   title: string;
   photos: { src: string; alt: string }[];
 }[] = [
   {
-    year: "2026",
-    title: "Verdena — aikštelė ir bendruomenė",
+    year: "2020+",
+    title: "Bendruomenė šiandien",
     photos: [
+      { src: "/images/gallery/2020s/bendruomene.jpg", alt: "Verdenos nariai ant molio korto" },
+      { src: "/images/gallery/2020s/2020s-01.jpg", alt: "Klubo turnyrų akimirka" },
+      { src: "/images/gallery/2020s/2020s-02.jpg", alt: "Verdenos bendruomenė" },
+      { src: "/images/gallery/2020s/2020s-03.jpg", alt: "Turnyro dalyviai" },
       { src: "/images/gallery/cover-rakete.jpg", alt: "Raketė ir kamuoliukai ant molio korto" },
-      { src: "/images/hero/group-v3.jpg", alt: "Klubo bendruomenė ant korto" },
-      { src: "/images/hero/outdoor-v2.jpg", alt: "Verdenos Facebook cover — raketė ant korto" },
-      { src: "/images/hero/indoor-v2.jpg", alt: "Raketė ir kamuoliukai saulėlydyje" },
+    ],
+  },
+  {
+    year: "2017",
+    title: "Ledo turnyras",
+    photos: [
+      { src: "/images/gallery/2017/2017-04.jpg", alt: "Žaidėjai ant snieguoto korto" },
+      { src: "/images/gallery/2017/2017-01.jpg", alt: "Ledo turnyro akimirka" },
+      { src: "/images/gallery/2017/2017-02.jpg", alt: "Žieminis tenisas Šilutėje" },
+      { src: "/images/gallery/2017/2017-05.jpg", alt: "Ledo turnyro dalyviai" },
+      { src: "/images/gallery/2017/2017-03.jpg", alt: "Turnyro atmosfera 2017" },
+    ],
+  },
+  {
+    year: "2016",
+    title: "Klubo šventė",
+    photos: [
+      { src: "/images/gallery/2016/2016-04.jpg", alt: "Apdovanojimai ir bendruomenė" },
+      { src: "/images/gallery/2016/2016-05.jpg", alt: "Šventės akimirka" },
+      { src: "/images/gallery/2016/2016-06.jpg", alt: "Klubo vakaro svečiai" },
+      { src: "/images/gallery/2016/2016-01.jpg", alt: "Verdenos renginys 2016" },
+      { src: "/images/gallery/2016/2016-02.jpg", alt: "Bendruomenės susibūrimas" },
+    ],
+  },
+  {
+    year: "2014",
+    title: "Šv. Valentino turnyras",
+    photos: [
+      { src: "/images/gallery/2014/2014-01.jpg", alt: "Mišrių dvejetų pora salėje" },
+      { src: "/images/gallery/2014/2014-03.jpg", alt: "Turnyro dalyviai su raketėmis" },
+      { src: "/images/gallery/2014/2014-02.jpg", alt: "Verdenos žaidėjai 2014" },
+      { src: "/images/gallery/2014/2014-04.jpg", alt: "Turnyro komandinė nuotrauka" },
+      { src: "/images/gallery/2014/2014-05.jpg", alt: "Šv. Valentino 2014 taurės ir lentelė" },
     ],
   },
 ];
