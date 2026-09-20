@@ -66,6 +66,18 @@ export default async function Footer() {
                 </a>
               </li>
             ) : null}
+            {"facebook" in club && club.facebook ? (
+              <li>
+                <a
+                  href={String(club.facebook)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white"
+                >
+                  Facebook
+                </a>
+              </li>
+            ) : null}
             {club.code ? <li>Įm. kodas {club.code}</li> : null}
           </ul>
         </div>
