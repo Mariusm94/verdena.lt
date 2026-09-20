@@ -311,6 +311,24 @@ export async function syncClubContentFromStatic() {
         sortOrder: index,
       })),
     });
+
+    await prisma.galleryAlbum.deleteMany();
+    for (const [index, album] of staticGalleryAlbums.entries()) {
+      await prisma.galleryAlbum.create({
+        data: {
+          year: album.year,
+          title: album.title,
+          sortOrder: index,
+          photos: {
+            create: album.photos.map((photo, photoIndex) => ({
+              url: photo.src,
+              alt: photo.alt,
+              sortOrder: photoIndex,
+            })),
+          },
+        },
+      });
+    }
   } catch (error) {
     console.error("[content] syncClubContentFromStatic failed:", error);
   }
